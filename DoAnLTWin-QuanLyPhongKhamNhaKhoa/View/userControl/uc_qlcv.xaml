@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl.uc_qlcv"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="450" d:DesignWidth="900">
+    <Viewbox>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <TextBlock Text="Thông tin Chức vụ" Style="{StaticResource textfont}"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition Width="170"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1">
+                    <Button Content="Thêm Chức vụ" Style="{StaticResource AppButton}" x:Name="btnThem" Click="btnThem_Click"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Button Content="Sửa chức vụ" Style="{StaticResource AppButton}" x:Name="btnSua" Click="btnSua_Click"/>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Button Content="Xóa chức vụ" Style="{StaticResource AppButton}" x:Name="btnXoa" Click="btnXoa_Click"/>
+                </Grid>
+                <Grid Grid.Column="4">
+                    <Button Content="In Thông Tin" Style="{StaticResource AppButton}" />
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2">
+                <DataGrid x:Name="DataGridXaml" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Top"   ItemsSource="{Binding MyDataCollection}"
+                  Width="750" Height="400" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" AutoGenerateColumns="False" IsReadOnly="True" BorderThickness="2 0 2 2" BorderBrush="Black" GridLinesVisibility="All" >
+                    <!--column header text-->
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Width="23"/>
+                        <DataGridTextColumn Header="Mã chức vụ" Width="100" Binding="{Binding MaCv}"/>
+                        <DataGridTextColumn Header="Tên chức vụ" Width="150" Binding="{Binding Tencv}"/>
+                        <DataGridTextColumn Header="Mô tả" Width="300" Binding="{Binding MoTa}"/>
+                        <DataGridTextColumn Header="Lương" Width="180" Binding="{Binding TienLuong}"/>
+
+                    </DataGrid.Columns>
+
+                </DataGrid>
+
+            </Grid>
+            <Grid Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Top">
+
+                <local:navigationBar />
+            </Grid>
+        </Grid>
+    </Viewbox>
+
+</UserControl>

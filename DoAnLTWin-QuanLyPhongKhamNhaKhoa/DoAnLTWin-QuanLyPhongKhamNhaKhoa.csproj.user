@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\Form\About_us_form.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\ChiTietHoaDon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\Create_Account.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\EMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\login_Form.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\NhaCungCap.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\ThemBenhNhan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\ThemChucVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\ThemDichVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\ThemNhanVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\ThemThietBi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Form\ThemThuoc.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\navigationBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_dichvu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_qlbn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_qlcv.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_qlnv1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_hoadon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_ThemNCC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_ThietBi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\uc_Thuoc.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\Form\About_us_form.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\ChiTietHoaDon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\Create_Account.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\EMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\login_Form.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\NhaCungCap.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\ThemBenhNhan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\ThemChucVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\ThemDichVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\ThemNhanVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\ThemThietBi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\ThemThuoc.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\CustomStyle\AngleRight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\AppStyle\AppButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\MainStyle\ButtonMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\MenuStyle\MenuButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\CustomStyle\Custom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\CustomStyle\DataGridView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\AppStyle\AppIcon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\MenuStyle\MenuIcon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\MainStyle\NavigationBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\MainStyle\Search.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\CustomStyle\Text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\CustomStyle\TextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\CustomStyle\TextFont.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\navigationBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_dichvu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_qlbn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_qlcv.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_qlnv1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_hoadon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_ThemNCC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_ThietBi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_Thuoc.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

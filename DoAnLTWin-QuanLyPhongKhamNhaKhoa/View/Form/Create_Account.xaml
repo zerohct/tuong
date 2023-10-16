@@ -1,0 +1,94 @@
+﻿<Window x:Class="DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form.Create_Account"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:uc="clr-namespace:DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl"
+        mc:Ignorable="d"
+        Title="Create_Account" Height="450" Width="750"
+        Background="Transparent" WindowStyle="None"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+ TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+ TextElement.FontWeight="Regular"
+ TextElement.FontSize="13"
+ TextOptions.TextFormattingMode="Ideal"
+ TextOptions.TextRenderingMode="Auto"
+ FontFamily="{DynamicResource MaterialDesignFont}"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Left section-->
+        <Border Background="#99FFFF" Padding="30" CornerRadius="30,0,0,30">
+            <StackPanel VerticalAlignment="Center">
+                <Image Source="/image/Logo/logo.png" Width="180" Height="180" Margin="0,0,0,40"/>
+                <TextBlock Text="Create an account &#x0a;for your employee" TextAlignment="Center"
+                           FontWeight="SemiBold" FontSize="28" Foreground="Black"/>
+                <Button Style = "{StaticResource AngleRightButton}" Margin="10">
+                    <fa:ImageAwesome Icon="AngleRight" Width="25" Height="25" Foreground="#99ffff"
+                                     Margin="3,0,0,0"/>
+                </Button>
+            </StackPanel>
+
+        </Border>
+
+        <!--Input Section-->
+        <Border Grid.Column="1" Padding="20" Background="#ffffff" CornerRadius="0,30,30,0"
+                MouseDown="Border_MouseDown">
+            <Grid>
+                <Grid>
+                    <Image Source="/image/icon/close.png" Margin="0,4,5,0" Width="25" Style="{StaticResource IconApp}" MouseLeftButtonDown="close_MouseLeftButtonDown" />
+                </Grid>
+                <Image Source="/image/icon/minus.png" Margin="0,7,40,0" Width="25" Style="{StaticResource IconApp}"  PreviewMouseDown="MinimizeButton_PreviewMouseDown"/>
+
+                <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="1" Text="Tên nhân viên" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="2" Text="Tên đăng nhập" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="3" Text="Mật khẩu" Style="{StaticResource text}"/>
+                    <Grid Height="25" Width="153" VerticalAlignment="Top" HorizontalAlignment="Left"  Grid.Column="1" Grid.Row="1">
+                        <ComboBox x:Name="cbnhanvien"  Padding="0"
+                                    materialDesign:HintAssist.Hint="Chọn nhân viên"
+                                    Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                                    Height="25" Width="150"/>
+                    </Grid>
+                    <Grid Grid.Row="2" Grid.Column="1" Height="30" Width="150" VerticalAlignment="Top"  HorizontalAlignment="Left" Margin="0 20 0 0">
+                        <TextBox  x:Name="txtUser"  Padding="0"
+                                    materialDesign:HintAssist.Hint="Nhập tên đăng nhập"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    </Grid>
+                    <Grid Grid.Row="3" Grid.Column="1" Height="30" Width="150" VerticalAlignment="Top"  HorizontalAlignment="Left" Margin="0 20 0 0">
+                        <TextBox  x:Name="txtPass"  Padding="0"
+                materialDesign:HintAssist.Hint="Nhập tên đăng nhập"
+                Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    </Grid>
+
+                    <Grid Grid.Column="1" Grid.Row="5" Margin="0,40,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="Cancer" Margin="0,0,10,0" Style="{StaticResource ButtonMain}" x:Name="btnCancer" Click="btnCancer_Click"/>
+                        <Button Content="Save" Margin="10,0,0,0" Grid.Column="1" Style="{StaticResource buttonMainGreen}" x:Name="btnSave" Click="btnSave_Click"/>
+                    </Grid>
+
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

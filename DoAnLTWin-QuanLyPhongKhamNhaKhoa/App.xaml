@@ -1,0 +1,40 @@
+﻿<Application x:Class="DoAnLTWin_QuanLyPhongKhamNhaKhoa.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DoAnLTWin_QuanLyPhongKhamNhaKhoa"
+             xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             StartupUri="View/Form/EMainWindow.xaml"
+             xmlns:wpf="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--AppStyle-->
+                <ResourceDictionary Source="/Style/AppStyle/AppButton.xaml"/>
+                <ResourceDictionary Source="/Style/AppStyle/AppIcon.xaml"/>
+                
+                <!--MenuStyle-->
+                <ResourceDictionary Source="/Style/MenuStyle/MenuButton.xaml"/>
+                <ResourceDictionary Source="/Style/MenuStyle/MenuIcon.xaml"/>
+                
+                <!--CustomStyle-->
+                <ResourceDictionary Source="/Style/CustomStyle/custom.xaml"/>
+                <ResourceDictionary Source="/Style/CustomStyle/AngleRight.xaml"/>
+                <ResourceDictionary Source="/Style/CustomStyle/DataGridView.xaml"/>
+                <ResourceDictionary Source="/Style/CustomStyle/Text.xaml"/>
+                <ResourceDictionary Source="/Style/CustomStyle/TextFont.xaml"/>
+                <ResourceDictionary Source="/Style/CustomStyle/TextBox.xaml"/>
+               
+                <!--MainStyle-->
+                <ResourceDictionary Source="/Style/MainStyle/ButtonMain.xaml"/>
+                <ResourceDictionary Source="/Style/MainStyle/search.xaml"/>
+                <ResourceDictionary Source="/Style/MainStyle/navigationBar.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+
+
+
+    </Application.Resources>
+
+</Application>

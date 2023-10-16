@@ -1,0 +1,208 @@
+﻿<Window x:Class="DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form.EMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:uc="clr-namespace:DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl"
+        xmlns:local="clr-namespace:DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form"
+        mc:Ignorable="d"
+        Title="Phần mềm quản lý phòng khám nha khoa" Height="740" Width="1080" Icon="/image/Logo/logo.png"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </Window.Resources>
+    <Border Background="#99ffff"  MouseDown="Border_MouseDown" >
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!-- Menu -->
+            <ScrollViewer>
+                <Grid >
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="85*"/>
+                    </Grid.RowDefinitions>
+                    <!--Menu icon-->
+
+                    <Border Grid.Row="1" Background="#99ffcc" CornerRadius="30,50,0,0">
+                        <DockPanel>
+                            <!--menu Logo-->
+                            <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100"
+        DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="40,-30,0,0">
+                                <Ellipse>
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="/View/Form/me.jpg"/>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+
+                            </Border>
+                            <TextBlock x:Name="chucVutext" Text="{Binding ChucVu}"  Foreground="Black" FontSize="18" FontWeight="SemiBold" VerticalAlignment="Center" HorizontalAlignment="Left"
+DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
+                            <!--Menu Separator-->
+                            <Separator Margin="25" DockPanel.Dock="Top" Height="0.8" Background="#fefefe"/>
+                            <!--Menu Button-->
+                            <!--1-->
+                    
+                            <!--2-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Expander x:Name="PatientExpander" Margin="2">
+                                    <Expander.Header>
+
+                                        <Button Style="{StaticResource MenuButton}" Click="PatientButton_Click" >
+
+                                            <StackPanel Orientation="Horizontal">
+                                                <icon:PackIconMaterial Kind="FaceMan" Style="{StaticResource MenuIcon}"/>
+                                                <TextBlock Text="Bệnh nhân"/>
+                                            </StackPanel>
+                                        </Button>
+                                    </Expander.Header>
+                                    <Expander.Content>
+                                        <StackPanel Orientation="Vertical" >
+                                            <Button Style="{StaticResource MenuButton}">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <icon:PackIconMaterial Kind="Information" Style="{StaticResource MenuIcon}"/>
+                                                    <TextBlock Text="Thông tin bệnh nhân"/>
+                                                </StackPanel>
+                                            </Button>
+                                            <Button Style="{StaticResource MenuButton}">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <icon:PackIconMaterial Kind="Stethoscope" Style="{StaticResource MenuIcon}"/>
+                                                    <TextBlock Text="Thông tin lâm sàng"/>
+                                                </StackPanel>
+                                            </Button>
+                                            <Button Style="{StaticResource MenuButton}">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <icon:PackIconMaterial Kind="TestTube" Style="{StaticResource MenuIcon}"/>
+                                                    <TextBlock Text="Chuẩn đoán điều trị"/>
+                                                </StackPanel>
+                                            </Button>
+                                        </StackPanel>
+                                    </Expander.Content>
+                                </Expander>
+                            </StackPanel>
+                            <!--3-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="NotebookCheck" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Phiếu kiểm"/>
+                                    </StackPanel>
+                                </Button>
+
+                            </StackPanel>
+                            <!--4-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="OrderAlphabeticalAscending" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Phiếu giao hàng"/>
+                                    </StackPanel>
+                                </Button>
+
+                            </StackPanel>
+                            <!--5-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="NotebookEditOutline" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Phiếu đặt hàng"/>
+                                    </StackPanel>
+                                </Button>
+                            </StackPanel>
+                            <!--6-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}" x:Name="btnHoaDon" Click="btnHoaDon_Click">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="NoteText" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Hóa đơn"/>
+                                    </StackPanel>
+                                </Button>
+
+                            </StackPanel>
+                            <!--6-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="NoteTextOutline" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Phiếu hẹn"/>
+                                    </StackPanel>
+                                </Button>
+
+                            </StackPanel>
+
+                            <!--8-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="Help" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Help"/>
+                                    </StackPanel>
+                                </Button>
+
+                            </StackPanel>
+                            <Button Style="{StaticResource MenuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15,0,15,20" x:Name="btn_logout" Click="btn_logout_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <icon:PackIconMaterial Kind="Logout" Style="{StaticResource MenuIcon}"/>
+                                    <TextBlock Text="Logout"/>
+                                </StackPanel>
+                            </Button>
+                        </DockPanel>
+                    </Border>
+                </Grid>
+            </ScrollViewer>
+
+
+
+
+            <!--main section-->
+            <Grid Grid.Column="1"  Background="#fcfcfc">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="85*"/>
+                </Grid.RowDefinitions>
+                <Grid Margin="30,20,20,20" Grid.RowSpan="2" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!--Search textbox-->
+
+                    <Grid Grid.Row="0" Width="300" HorizontalAlignment="Left" Height="40" VerticalAlignment="Center" Margin="5">
+
+                        <TextBox Name="textBoxSearch" Style="{StaticResource SearchBox}"/>
+                        <icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center" Margin="0 0 18 0"  HorizontalAlignment="Right"  Background="White"/>
+                        <Button Width="18" Height="18" VerticalAlignment="Center" Margin="0 0 17 0"  HorizontalAlignment="Right"  Background="Transparent" x:Name="btn_search"/>
+
+                    </Grid>
+                    <!--top button-->
+                    <Grid HorizontalAlignment="Right">
+                        <materialDesign:PopupBox HorizontalAlignment="Right" Margin="0,10,0,0"
+                     PlacementMode="BottomAndAlignRightEdges" StaysOpen="False"
+                     Height="25" IsPopupOpen="{Binding ElementName=button, Path=IsPressed}">
+                            <StackPanel>
+                                <Button Content="About us" Click="AboutUs_Click"/>
+                                <Button ToolTip="Having Trouble Logging In" Margin="0,8,0,0" Content="Help me"  Click="Helpme_Click"/>
+                            </StackPanel>
+                        </materialDesign:PopupBox>
+                    </Grid>
+                    <Grid Grid.Row="1" Margin="20">
+                        <ContentControl x:Name="contentControl"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

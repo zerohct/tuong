@@ -1,0 +1,681 @@
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.AssemblyReference.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AngleRight.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\buttonMain.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\buttonMenu.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\custom.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\iconapp.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\menuButtonIcon.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\search.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\About_us_form.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\Create_Account.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\EMainWindow.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\login_Form.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\MainWindow.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.lref
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.exe
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.deps.json
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.runtimeconfig.json
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Humanizer.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Microns.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Modern.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\About_us_form.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\Create_Account.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\EMainWindow.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\login_Form.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\MainWindow.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.g.resources
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.GeneratedMSBuildEditorConfig.editorconfig
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfoInputs.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfo.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CoreCompileInputs.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CopyComplete
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\refint\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.genruntimeconfig.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\ref\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\navigationBar.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemNhanVien.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemNhanVien.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemThietBi.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemThuoc.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemThietBi.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemThuoc.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\NhaCungCap.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\NhaCungCap.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemChucVu.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Form\ThemChucVu.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\dataGrid.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\TextFont.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\appButton.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\MyOption.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\MyOption.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\Icon.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\Text.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\TextBox.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.AssemblyReference.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppButton.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppIcon.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\AngleRight.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\Custom.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\DataGridView.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\Text.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\TextBox.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\TextFont.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\ButtonMain.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\NavigationBar.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\Search.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MenuStyle\MenuButton.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MenuStyle\MenuIcon.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\About_us_form.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\Create_Account.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\EMainWindow.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\login_Form.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\MainWindow.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\NhaCungCap.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemChucVu.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlbn.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThemNCC.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThietBi.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_Thuoc.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.lref
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.exe
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.deps.json
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.runtimeconfig.json
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Humanizer.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Microns.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Modern.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\About_us_form.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\Create_Account.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\EMainWindow.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\login_Form.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\MainWindow.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\NhaCungCap.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemChucVu.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlbn.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThemNCC.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThietBi.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_Thuoc.baml
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.g.resources
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.GeneratedMSBuildEditorConfig.editorconfig
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfoInputs.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfo.cs
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CoreCompileInputs.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CopyComplete
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\refint\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.genruntimeconfig.cache
+D:\bailam\DoAnLTWin-QuanLyPhongKhamNhaKhoa - Copy\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\ref\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.exe
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.deps.json
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.runtimeconfig.json
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Humanizer.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Microns.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Modern.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.AssemblyReference.cache
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppButton.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppIcon.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\AngleRight.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\Custom.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\DataGridView.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\Text.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\TextBox.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\TextFont.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\ButtonMain.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\NavigationBar.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\Search.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MenuStyle\MenuButton.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MenuStyle\MenuIcon.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\About_us_form.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ChiTietHoaDon.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\Create_Account.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\EMainWindow.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\login_Form.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\MainWindow.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\NhaCungCap.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemBenhNhan.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemChucVu.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemDichVu.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlbn.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThemNCC.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThietBi.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_Thuoc.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.cache
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.lref
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\About_us_form.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ChiTietHoaDon.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\Create_Account.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\EMainWindow.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\login_Form.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\MainWindow.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\NhaCungCap.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemBenhNhan.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemChucVu.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemDichVu.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlbn.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThemNCC.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThietBi.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_Thuoc.baml
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.g.resources
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.GeneratedMSBuildEditorConfig.editorconfig
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfoInputs.cache
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfo.cs
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CoreCompileInputs.cache
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CopyComplete
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\refint\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.genruntimeconfig.cache
+D:\PHONGKHAMNHAKHOA\tuong-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\ref\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.exe
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.deps.json
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.runtimeconfig.json
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Humanizer.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Microns.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Modern.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.AssemblyReference.cache
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppButton.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppIcon.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\AngleRight.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\Custom.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\DataGridView.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\Text.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\TextBox.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\TextFont.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\ButtonMain.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\NavigationBar.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MainStyle\Search.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MenuStyle\MenuButton.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\MenuStyle\MenuIcon.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\About_us_form.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ChiTietHoaDon.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\Create_Account.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\EMainWindow.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\login_Form.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\MainWindow.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\NhaCungCap.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemBenhNhan.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemChucVu.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemDichVu.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlbn.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThemNCC.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThietBi.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_Thuoc.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.cache
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa_MarkupCompile.lref
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\App.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\About_us_form.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ChiTietHoaDon.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\Create_Account.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\EMainWindow.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\login_Form.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\MainWindow.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\NhaCungCap.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemBenhNhan.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemChucVu.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemDichVu.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_hoadon.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlbn.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlcv.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_qlnv1.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThemNCC.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_ThietBi.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_Thuoc.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.g.resources
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.GeneratedMSBuildEditorConfig.editorconfig
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfoInputs.cache
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.AssemblyInfo.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CoreCompileInputs.cache
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.CopyComplete
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\refint\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.genruntimeconfig.cache
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\ref\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
