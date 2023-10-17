@@ -9,7 +9,7 @@
         xmlns:local="clr-namespace:DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form"
         mc:Ignorable="d"
         Title="Phần mềm quản lý phòng khám nha khoa" Height="740" Width="1080" Icon="/image/Logo/logo.png"
-        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+       Background="Transparent"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
@@ -48,14 +48,10 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                             <Separator Margin="25" DockPanel.Dock="Top" Height="0.8" Background="#fefefe"/>
                             <!--Menu Button-->
                             <!--1-->
-                    
-                            <!--2-->
-                            <StackPanel DockPanel.Dock="Top">
-                                <Expander x:Name="PatientExpander" Margin="2">
+                            <StackPanel DockPanel.Dock="Top"  >
+                                <Expander x:Name="PatientExpander" Margin="2" Background="#99ffcc">
                                     <Expander.Header>
-
                                         <Button Style="{StaticResource MenuButton}" Click="PatientButton_Click" >
-
                                             <StackPanel Orientation="Horizontal">
                                                 <icon:PackIconMaterial Kind="FaceMan" Style="{StaticResource MenuIcon}"/>
                                                 <TextBlock Text="Bệnh nhân"/>
@@ -64,13 +60,13 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </Expander.Header>
                                     <Expander.Content>
                                         <StackPanel Orientation="Vertical" >
-                                            <Button Style="{StaticResource MenuButton}">
+                                            <Button Style="{StaticResource MenuButton}" >
                                                 <StackPanel Orientation="Horizontal">
                                                     <icon:PackIconMaterial Kind="Information" Style="{StaticResource MenuIcon}"/>
                                                     <TextBlock Text="Thông tin bệnh nhân"/>
                                                 </StackPanel>
                                             </Button>
-                                            <Button Style="{StaticResource MenuButton}">
+                                            <Button Style="{StaticResource MenuButton}" >
                                                 <StackPanel Orientation="Horizontal">
                                                     <icon:PackIconMaterial Kind="Stethoscope" Style="{StaticResource MenuIcon}"/>
                                                     <TextBlock Text="Thông tin lâm sàng"/>
@@ -88,46 +84,45 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                             </StackPanel>
                             <!--3-->
                             <StackPanel DockPanel.Dock="Top">
-                                <Button Style="{StaticResource MenuButton}">
+                                <Button Style="{StaticResource MenuButton}"  Margin="15,0,45,0">
                                     <StackPanel Orientation="Horizontal">
                                         <icon:PackIconMaterial Kind="NotebookCheck" Style="{StaticResource MenuIcon}"/>
                                         <TextBlock Text="Phiếu kiểm"/>
                                     </StackPanel>
                                 </Button>
-
                             </StackPanel>
+
                             <!--4-->
                             <StackPanel DockPanel.Dock="Top">
-                                <Button Style="{StaticResource MenuButton}">
+                                <Button Style="{StaticResource MenuButton}"  Margin="15,10,45,0" >
                                     <StackPanel Orientation="Horizontal">
                                         <icon:PackIconMaterial Kind="OrderAlphabeticalAscending" Style="{StaticResource MenuIcon}"/>
                                         <TextBlock Text="Phiếu giao hàng"/>
                                     </StackPanel>
                                 </Button>
-
                             </StackPanel>
                             <!--5-->
                             <StackPanel DockPanel.Dock="Top">
-                                <Button Style="{StaticResource MenuButton}">
+                                <Button Style="{StaticResource MenuButton}"  Margin="15,10,45,0">
                                     <StackPanel Orientation="Horizontal">
                                         <icon:PackIconMaterial Kind="NotebookEditOutline" Style="{StaticResource MenuIcon}"/>
                                         <TextBlock Text="Phiếu đặt hàng"/>
                                     </StackPanel>
                                 </Button>
                             </StackPanel>
+
                             <!--6-->
                             <StackPanel DockPanel.Dock="Top">
-                                <Button Style="{StaticResource MenuButton}" x:Name="btnHoaDon" Click="btnHoaDon_Click">
+                                <Button Style="{StaticResource MenuButton}"  Margin="15,10,45,0" x:Name="btnHoaDon" Click="btnHoaDon_Click">
                                     <StackPanel Orientation="Horizontal">
                                         <icon:PackIconMaterial Kind="NoteText" Style="{StaticResource MenuIcon}"/>
                                         <TextBlock Text="Hóa đơn"/>
                                     </StackPanel>
                                 </Button>
-
                             </StackPanel>
                             <!--6-->
                             <StackPanel DockPanel.Dock="Top">
-                                <Button Style="{StaticResource MenuButton}">
+                                <Button Style="{StaticResource MenuButton}" Margin="15,10,45,0">
                                     <StackPanel Orientation="Horizontal">
                                         <icon:PackIconMaterial Kind="NoteTextOutline" Style="{StaticResource MenuIcon}"/>
                                         <TextBlock Text="Phiếu hẹn"/>
@@ -138,7 +133,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
 
                             <!--8-->
                             <StackPanel DockPanel.Dock="Top">
-                                <Button Style="{StaticResource MenuButton}">
+                                <Button Style="{StaticResource MenuButton}" Margin="15,10,45,0">
                                     <StackPanel Orientation="Horizontal">
                                         <icon:PackIconMaterial Kind="Help" Style="{StaticResource MenuIcon}"/>
                                         <TextBlock Text="Help"/>
@@ -146,7 +141,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                 </Button>
 
                             </StackPanel>
-                            <Button Style="{StaticResource MenuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15,0,15,20" x:Name="btn_logout" Click="btn_logout_Click">
+                            <Button Style="{StaticResource MenuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15,0,45,0" x:Name="btn_logout" Click="btn_logout_Click">
                                 <StackPanel Orientation="Horizontal">
                                     <icon:PackIconMaterial Kind="Logout" Style="{StaticResource MenuIcon}"/>
                                     <TextBlock Text="Logout"/>

@@ -1,5 +1,7 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -56,6 +58,21 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         }
 
         private void txtSDT_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click_1(object sender, RoutedEventArgs e)
+        {
+            ChiTietHoaDon nv = new ChiTietHoaDon();
+            nv.Closed += (s, args) =>
+            {
+                LoadHoaDon(currentMaPdt);
+            };
+            nv.Show();
+        }
+
+        private void btnXoa_Click(object sender, RoutedEventArgs e)
         {
 
         }

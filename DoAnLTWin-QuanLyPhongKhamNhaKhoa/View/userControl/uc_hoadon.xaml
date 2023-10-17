@@ -7,7 +7,7 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d" Background="White"
-             d:DesignHeight="450" d:DesignWidth="900">
+             d:DesignHeight="750" d:DesignWidth="1150">
     <Viewbox>
         <Grid>
             <Grid.RowDefinitions>
@@ -85,13 +85,13 @@
                     <ColumnDefinition Width="170"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="1">
-                    <Button Content="Thêm dữ liệu" Style="{StaticResource AppButton}" x:Name="btnThem" Click="btnThem_Click"/>
+                    <Button Content="Thêm dữ liệu" Style="{StaticResource AppButton}" x:Name="btnThem" Click="btnThem_Click_1"/>
                 </Grid>
                 <Grid Grid.Column="2">
                     <Button Content="Sửa dữ liệu" Style="{StaticResource AppButton}" />
                 </Grid>
                 <Grid Grid.Column="3">
-                    <Button Content="Xóa dữ liệu" Style="{StaticResource AppButton}" />
+                    <Button Content="Xóa dữ liệu" Style="{StaticResource AppButton}" x:Name="btnXoa" Click="btnXoa_Click"/>
                 </Grid>
                 <Grid Grid.Column="4">
                     <Button Content="Lưu" Style="{StaticResource AppButton}" />
@@ -101,34 +101,33 @@
                 </Grid>
             </Grid>
             <Grid Grid.Row="3">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="5*"/>
-                    <RowDefinition Height="73*"/>
-                    <RowDefinition Height="78*"/>
-                    <RowDefinition Height="78*"/>
-                </Grid.RowDefinitions>
-                <DataGrid x:Name="DataGridHoaDon" HorizontalAlignment="Left" Margin="-12,10,0,0" VerticalAlignment="Top"   ItemsSource="{Binding MyDataCollection}"
-                  Width="902" Height="233" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" AutoGenerateColumns="False" IsReadOnly="True" BorderThickness="2 0 2 2" BorderBrush="Black" GridLinesVisibility="All" Grid.Row="2" Grid.RowSpan="2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="801*"/>
+                    <ColumnDefinition Width="79*"/>
+                </Grid.ColumnDefinitions>
+                <DataGrid x:Name="DataGridHoaDon" 
+                                     HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Top" 
+                                    SelectionMode="Extended" IsSynchronizedWithCurrentItem="True"
+                                    SelectionUnit="FullRow" Width="900" Height="300" 
+                                    AutoGenerateColumns="False" IsReadOnly="True" 
+                                    BorderThickness="2 0 2 2" BorderBrush="Black" 
+                                    HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                                    GridLinesVisibility="All" Grid.ColumnSpan="2">
                     <!--column header text-->
                     <DataGrid.Columns>
-                        <DataGridTextColumn Width="23"/>
-                        <DataGridTextColumn Header="Mã dịch vụ" Width="250" Binding="{Binding MaDv}"/>
-                        <DataGridTextColumn Header="Tên dịch vụ" Width="250" Binding="{Binding TenDv}"/>
-                        <DataGridTextColumn Header="Đơn vị tính" Width="150" Binding="{Binding Dvt}"/>
-                        <DataGridTextColumn Header="Số Lượng" Width="250" Binding="{Binding Sl}"/>
-                        <DataGridTextColumn Header="Khuyến mại" Width="250" Binding="{Binding Khuyenmai}"/>
-                        <DataGridTextColumn Header="Gía dịch vụ" Width="250" Binding="{Binding Giadv}"/>
-                        <DataGridTextColumn Header="Thởi gian bảo hành" Width="250" Binding="{Binding Tgbh}"/>
-                        <DataGridTextColumn Header="Tổng tiền" Width="250" Binding="{Binding TongTien}"/>
-
-
+                        <!-- Các cột dữ liệu -->
+                        <DataGridTextColumn Header="Mã dịch vụ" Width="100" Binding="{Binding MaDv}"/>
+                        <DataGridTextColumn Header="Tên dịch vụ" Width="120" Binding="{Binding TenDv}"/>
+                        <DataGridTextColumn Header="Đơn vị tính" Width="100" Binding="{Binding Dvt}"/>
+                        <DataGridTextColumn Header="Số Lượng" Width="70" Binding="{Binding Sl}"/>
+                        <DataGridTextColumn Header="Khuyến mại" Width="100" Binding="{Binding Khuyenmai}"/>
+                        <DataGridTextColumn Header="Gía dịch vụ" Width="165" Binding="{Binding Giadv}"/>
+                        <DataGridTextColumn Header="Thời gian bảo hành" Width="115" Binding="{Binding Tgbh}"/>
+                        <DataGridTextColumn Header="Tổng tiền" Width="115" Binding="{Binding TongTien}"/>
                     </DataGrid.Columns>
-
                 </DataGrid>
-
             </Grid>
-            <Grid Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Top"
-              >
+            <Grid Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Top">
                 <local:navigationBar />
             </Grid>
         </Grid>
