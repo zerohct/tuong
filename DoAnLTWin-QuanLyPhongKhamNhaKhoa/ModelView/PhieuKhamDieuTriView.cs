@@ -16,7 +16,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView
 
         public string Dvt { get; set; } = null!;
 
-        public int? Sl { get; set; }
+        public int Sl { get; set; }
 
         public int? Khuyenmai { get; set; }
 

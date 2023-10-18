@@ -1,8 +1,10 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
+using System.Linq;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
 {
@@ -12,139 +14,127 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
     public partial class ChiTietHoaDon : Window
     {
         private PhongkhamnhakhoaContext context;
-        private ObservableCollection<Ctpdt> invoiceDetails;
-        private Phieudieutri currentInvoice;
+        private List<Dichvu> dichVuList = new List<Dichvu>();
+        private List<PhieuKhamDieuTriView> phieuKhamDieuTri = new List<PhieuKhamDieuTriView>();
+
+
         public ChiTietHoaDon()
         {
             InitializeComponent();
+            context = new PhongkhamnhakhoaContext();
+            LoadDataIntoComboBox();
+            txtMaDv.IsReadOnly = true;
+            txtDvt.IsReadOnly = true;
+            txtGiaDv.IsReadOnly = true;
+            txtTgbh.IsReadOnly = true;
         }
-        private int GetMaDVFromComboBox()
+
+        private void LoadDataIntoComboBox()
         {
-            int selectedMaDV = (int)cbTenDv.SelectedValue;
-            if (selectedMaDV != null)
+            var dichVuQuery = from dv in context.Dichvus select dv;
+            foreach (var dv in dichVuQuery)
             {
-                return selectedMaDV;
+                dichVuList.Add(dv);
             }
-            return -1;
+
+            cbTenDv.ItemsSource = dichVuList;
+            cbTenDv.DisplayMemberPath = "TenDv";
+            cbTenDv.SelectedValuePath = "MaDv";
         }
-        public PhieuKhamDieuTriView GetEnteredDetail()
+
+        public PhieuKhamDieuTriView GetPhieuKhamDieuTri()
         {
-            if (decimal.TryParse(txtGiaDv.Text, out decimal gia))
-            {
-                PhieuKhamDieuTriView newDetail = new PhieuKhamDieuTriView
-                {
-                    MaPdt = currentInvoice.MaPdt,
-                    TenDv= cbTenDv.Text,
-                   
-                };
-                return newDetail;
-            }
-            else
-            {
-                MessageBox.Show("Vui lòng nhập giá hợp lệ.");
-                return null;
-            }
+            PhieuKhamDieuTriView cthdData = new PhieuKhamDieuTriView();
+
+            cthdData.MaDv = int.Parse(txtMaDv.Text);
+            cthdData.TenDv = (cbTenDv.SelectedItem as Dichvu)?.TenDv;
+            cthdData.Dvt = txtDvt.Text;
+            cthdData.Sl = int.Parse(txtSl.Text);
+            cthdData.Giadv = decimal.Parse(txtGiaDv.Text);
+            cthdData.Tgbh = double.Parse(txtTgbh.Text);
+            cthdData.TongTien = (cthdData.Sl * cthdData.Giadv);
+
+            return cthdData;
         }
 
         private void Click_Them(object sender, RoutedEventArgs e)
         {
-          /*  string? selectedGender = cbGioiTinh.SelectionBoxItem as string;
-            DateTime? selectedNgaySinh = dtNTNS.SelectedDate;
-
-            if (KiemTraDayDuThongTin())
+            if (IsValidInput())
             {
-                int selectedMaCv = GetMaCvFromComboBox();
 
-                if (selectedMaCv != -1)
-                {
-                    bool isEmailExist = context.Nhanviens.Any(nv => nv.Email == txtEmail.Text);
-                    bool isSdtExist = context.Nhanviens.Any(nv => nv.Sdt == txtSDT.Text);
-                    if (isEmailExist || isSdtExist)
-                    {
-                        ShowErrorMessage("Email hoặc số điện thoại đã tồn tại!");
-                    }
-                    else
-                    {
-                        Nhanvien newEmployee = new Nhanvien
-                        {
-                            TenNv = txtName.Text,
-                            NgaySinh = selectedNgaySinh ?? DateTime.MinValue,
-                            Gt = selectedGender,
-                            DiaChi = txtDiaChi.Text,
-                            Email = txtEmail.Text,
-                            Sdt = txtSDT.Text,
-                            MaCv = selectedMaCv
-                        };
-                        try
-                        {
-                            context.Nhanviens.Add(newEmployee);
-                            context.SaveChanges();
-                            this.Close();
-                        }
-                        catch (Exception ex)
-                        {
-                            ShowErrorMessage("Không thể thêm nhân viên mới: " + ex.Message);
-                        }
-                    }
-                }
-                else
-                {
-                    ShowErrorMessage("Chọn một chức vụ.");
-                }
-            }*/
+                DialogResult = true;
+                this.Close();
 
+            }
         }
-    
         private void click_Sua(object sender, RoutedEventArgs e)
         {
-            /*string? selectedGender = cbGioiTinh.SelectionBoxItem as string;
-            DateTime? selectedNgaySinh = dtNTNS.SelectedDate;
-
-            if (KiemTraDayDuThongTin())
+            if (IsValidInput())
             {
-                int selectedMaCv = GetMaCvFromComboBox();
 
-                if (selectedMaCv != -1)
-                {
-                    try
-                    {
-                        var existingEmployee = context.Nhanviens.FirstOrDefault(nv => nv.MaNv == dTO.MaNv);
+                DialogResult = true;
+                this.Close();
 
-                        if (existingEmployee != null)
-                        {
-
-                            existingEmployee.TenNv = txtName.Text;
-                            existingEmployee.NgaySinh = selectedNgaySinh ?? DateTime.MinValue;
-                            existingEmployee.Gt = selectedGender;
-                            existingEmployee.DiaChi = txtDiaChi.Text;
-                            existingEmployee.Email = txtEmail.Text;
-                            existingEmployee.Sdt = txtSDT.Text;
-                            existingEmployee.MaCv = selectedMaCv;
-
-                            context.SaveChanges();
-                            this.Close();
-                        }
-                        else
-                        {
-                            ShowErrorMessage("Nhân viên không tồn tại.");
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        ShowErrorMessage("Không thể cập nhật thông tin nhân viên: " + ex.Message);
-                    }
-                }
-                else
-                {
-                    ShowErrorMessage("Chọn một chức vụ.");
-                }*/
             }
+        }
+
+        private bool IsValidInput()
+        {
+            if (string.IsNullOrWhiteSpace(txtMaDv.Text) || cbTenDv.SelectedItem == null || string.IsNullOrWhiteSpace(txtDvt.Text) ||
+                string.IsNullOrWhiteSpace(txtSl.Text) || string.IsNullOrWhiteSpace(txtGiaDv.Text) || string.IsNullOrWhiteSpace(txtTgbh.Text))
+            {
+                ShowErrorMessage("Vui lòng điền đầy đủ thông tin chi tiết hóa đơn.");
+                return false;
+            }
+
+            int soLuong;
+            if (!int.TryParse(txtSl.Text, out soLuong) || soLuong <= 0)
+            {
+                ShowErrorMessage("Số lượng phải là một số nguyên dương.");
+                return false;
+            }
+
+
+            return true;
+        }
+
+        private int GetMaDVFromComboBox()
+        {
+            int selectedMaDv = (int)cbTenDv.SelectedValue;
+            if (selectedMaDv != null)
+            {
+                return selectedMaDv;
+            }
+            return -1;
+        }
+
+        private void ShowErrorMessage(string message)
+        {
+            MessageBox.Show(message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
 
         private void click_Huy(object sender, RoutedEventArgs e)
         {
-            Window wd = Window.GetWindow(sender as Button);
-            wd.Close();
+            this.Close();
+        }
+        public void LoadData(PhieuKhamDieuTriView data)
+        {
+            txbTitle.Text = "Sửa Thông Tin";
+           cbTenDv.Text= data.TenDv;
+           txtSl.Text=data.Sl.ToString();
+
+        }
+        private void cbTenDv_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cbTenDv.SelectedItem != null)
+            {
+                Dichvu selectedDichVu = (Dichvu)cbTenDv.SelectedItem;
+                txtMaDv.Text = selectedDichVu.MaDv.ToString();
+                txtDvt.Text = selectedDichVu.Dvt;
+                txtGiaDv.Text = selectedDichVu.Giadv.ToString();
+                txtTgbh.Text = selectedDichVu.Tgbh.ToString();
+            }
         }
     }
 
-  }
+}

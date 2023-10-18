@@ -56,9 +56,9 @@
                 <StackPanel Grid.Column="2">
                     <Grid Height="30" Width="213" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 35 0 0">
                         <materialDesign:PackIcon Kind="Dollar" Height="25" Width="25" VerticalAlignment="Center"/>
-                        <TextBox  x:Name="txtSDT" Margin="30 0 0 0" Padding="0" 
-                   materialDesign:HintAssist.Hint="Nhập tổng tiền"
-                   Style="{StaticResource MaterialDesignFloatingHintTextBox}" TextChanged="txtSDT_TextChanged" />
+                        <TextBox  x:Name="txtTongTien" Margin="30 0 0 0" Padding="0" 
+                   materialDesign:HintAssist.Hint="tổng tiền"
+                   Style="{StaticResource MaterialDesignFloatingHintTextBox}"  />
                     </Grid>
                     <Grid Height="30" Width="213" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 40 0 0">
                         <materialDesign:PackIcon Kind="ListStatus" Height="25" Width="25" VerticalAlignment="Center"/>
@@ -88,16 +88,16 @@
                     <Button Content="Thêm dữ liệu" Style="{StaticResource AppButton}" x:Name="btnThem" Click="btnThem_Click_1"/>
                 </Grid>
                 <Grid Grid.Column="2">
-                    <Button Content="Sửa dữ liệu" Style="{StaticResource AppButton}" />
+                    <Button Content="Sửa dữ liệu" Style="{StaticResource AppButton}" x:Name="btnSua" Click="btnSua_Click"/>
                 </Grid>
                 <Grid Grid.Column="3">
                     <Button Content="Xóa dữ liệu" Style="{StaticResource AppButton}" x:Name="btnXoa" Click="btnXoa_Click"/>
                 </Grid>
                 <Grid Grid.Column="4">
-                    <Button Content="Lưu" Style="{StaticResource AppButton}" />
+                    <Button Content="Lưu" Style="{StaticResource AppButton}" x:Name="btnLuu" Click="btnLuu_Click"/>
                 </Grid>
                 <Grid Grid.Column="5">
-                    <Button Content="In Thông Tin" Style="{StaticResource AppButton}" />
+                    <Button Content="In Thông Tin" Style="{StaticResource AppButton}" x:Name="btnIn" Click="btnIn_Click"/>
                 </Grid>
             </Grid>
             <Grid Grid.Row="3">
@@ -109,6 +109,7 @@
                                      HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Top" 
                                     SelectionMode="Extended" IsSynchronizedWithCurrentItem="True"
                                     SelectionUnit="FullRow" Width="900" Height="300" 
+                                    CanUserReorderColumns="False"
                                     AutoGenerateColumns="False" IsReadOnly="True" 
                                     BorderThickness="2 0 2 2" BorderBrush="Black" 
                                     HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
@@ -123,7 +124,7 @@
                         <DataGridTextColumn Header="Khuyến mại" Width="100" Binding="{Binding Khuyenmai}"/>
                         <DataGridTextColumn Header="Gía dịch vụ" Width="165" Binding="{Binding Giadv}"/>
                         <DataGridTextColumn Header="Thời gian bảo hành" Width="115" Binding="{Binding Tgbh}"/>
-                        <DataGridTextColumn Header="Tổng tiền" Width="115" Binding="{Binding TongTien}"/>
+                        <DataGridTextColumn Header="Tổng tiền" Width="155" Binding="{Binding TongTien}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>

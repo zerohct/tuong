@@ -51,14 +51,14 @@
                             <materialDesign:PackIcon Kind="Material" Height="25" Width="25" VerticalAlignment="Center"/>
                             <TextBox  x:Name="txtMaDv" Margin="30 0 0 0" Padding="0"
                                       materialDesign:HintAssist.Hint="Nhập mã dịch vụ"
-                                      Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                                      Style="{StaticResource MaterialDesignFloatingHintTextBox}"  />
                         </Grid>
                         <Grid Height="30" Width="213" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 40 0 0">
                             <materialDesign:PackIcon Kind="ServiceToolbox" Height="25" Width="25" VerticalAlignment="Center"/>
                             <ComboBox x:Name="cbTenDv" Margin="30 0 0 0" Padding="0"
                                       materialDesign:HintAssist.Hint="Chọn tên dịch vụ"
                                       Style="{StaticResource MaterialDesignOutlinedComboBox}"
-                                      Height="25" Width="180"/>
+                                      Height="25" Width="180" SelectionChanged="cbTenDv_SelectionChanged"/>
                            
 
 

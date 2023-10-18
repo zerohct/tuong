@@ -70,7 +70,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         {
 
         }
-        public int GetNewestMaPdt()
+/*        public int GetNewestMaPdt()
         {
             using (var context = new PhongkhamnhakhoaContext())
             {
@@ -87,11 +87,11 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
                     return 1;
                 }
             }
-        }
+        }*/
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
         {
-            currentMaPdt = GetNewestMaPdt();
-            uc_hoadon hd=new uc_hoadon(currentMaPdt);
+            /*currentMaPdt = GetNewestMaPdt();*/
+            uc_hoadon hd=new uc_hoadon();
             contentControl.Content = hd;
         }
     }

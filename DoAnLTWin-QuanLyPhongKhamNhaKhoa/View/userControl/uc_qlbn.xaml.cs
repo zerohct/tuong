@@ -60,8 +60,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
         private void btnSua_Click(object sender, RoutedEventArgs e)
         {
-            var row = DataGridBenhNhan.SelectedItem as Benhnhan
-                ;
+            var row = DataGridBenhNhan.SelectedItem as Benhnhan;
             if (row == null) return;
             ThemBenhNhan bn = new ThemBenhNhan(row);
             bn.Closed += (s, args) =>
