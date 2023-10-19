@@ -2,9 +2,11 @@
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
 using System;
+using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 {
@@ -97,6 +99,22 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         {
             excel = new ExportToExcel();
             excel.ExportToExcelpost(DataGridXaml);
+        }
+        private void textBoxSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+
+            string searchKeyword = textBoxSearch.Text.ToLower();
+            ICollectionView view = CollectionViewSource.GetDefaultView(DataGridXaml.ItemsSource);
+            if (view != null)
+            {
+                view.Filter = item =>
+                {
+
+                    var employeeView = (ViewChucVu)item;
+                    return employeeView.Tencv.ToLower().Contains(searchKeyword);
+                };
+            }
         }
     }
 }

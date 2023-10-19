@@ -20,10 +20,11 @@
             </Grid>
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="80"/>
-                    <ColumnDefinition Width="170"/>
-                    <ColumnDefinition Width="170"/>
-                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="160"/>
                     <ColumnDefinition Width="170"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="1">
@@ -38,13 +39,32 @@
                 <Grid Grid.Column="4">
                     <Button Content="In Thông Tin Nhà CC" Style="{StaticResource AppButton}" x:Name="btnIn" Click="btnIn_Click" />
                 </Grid>
+                <Grid Grid.Column="5">
+                    <Border Background="AntiqueWhite" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Width="160" Height="30" Margin="0,17,10,0" >
+                        <Grid>
+                            <TextBox Name="textBoxSearch"  HorizontalAlignment="Center" Width="150" Height="20" FontSize="13" VerticalAlignment="Center" TextChanged="textBoxSearch_TextChanged" Background="Transparent" BorderThickness="0" Margin="0" Padding="0" />
+                            <TextBlock Text="Search" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,0,0" Foreground="Gray">
+                                <TextBlock.Style>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Text, ElementName=textBoxSearch}" Value="">
+                                                <Setter Property="Visibility" Value="Visible"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                        <Setter Property="Visibility" Value="Hidden"/>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </Grid>
+                    </Border>
+                </Grid>
             </Grid>
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="801*"/>
                     <ColumnDefinition Width="79*"/>
                 </Grid.ColumnDefinitions>
-                <DataGrid x:Name="dataaGridNCC" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                <DataGrid x:Name="dataaGridNCC" HorizontalAlignment="Center" VerticalAlignment="Center"  CanUserReorderColumns="False"
                Width="773" Height="239" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" AutoGenerateColumns="False" IsReadOnly="True" BorderThickness="2 0 2 2" BorderBrush="Black" GridLinesVisibility="All" Margin="30,0,0,10" Grid.ColumnSpan="2">
                     <!--column header text-->
                     <DataGrid.Columns>

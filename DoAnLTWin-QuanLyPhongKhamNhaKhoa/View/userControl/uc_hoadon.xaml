@@ -109,7 +109,7 @@
                                      HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Top" 
                                     SelectionMode="Extended" IsSynchronizedWithCurrentItem="True"
                                     SelectionUnit="FullRow" Width="900" Height="300" 
-                                    CanUserReorderColumns="False"
+                                    CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False"
                                     AutoGenerateColumns="False" IsReadOnly="True" 
                                     BorderThickness="2 0 2 2" BorderBrush="Black" 
                                     HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"

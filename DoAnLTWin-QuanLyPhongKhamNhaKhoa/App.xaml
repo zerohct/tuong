@@ -24,7 +24,7 @@
                 <ResourceDictionary Source="/Style/CustomStyle/Text.xaml"/>
                 <ResourceDictionary Source="/Style/CustomStyle/TextFont.xaml"/>
                 <ResourceDictionary Source="/Style/CustomStyle/TextBox.xaml"/>
-               
+                
                 <!--MainStyle-->
                 <ResourceDictionary Source="/Style/MainStyle/ButtonMain.xaml"/>
                 <ResourceDictionary Source="/Style/MainStyle/search.xaml"/>

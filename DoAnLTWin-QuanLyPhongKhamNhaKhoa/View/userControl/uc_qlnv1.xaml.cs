@@ -4,6 +4,7 @@ using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,6 +24,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             InitializeComponent();
             context = new PhongkhamnhakhoaContext();
             LoadEmployees();
+            textBoxSearch.TextChanged += textBoxSearch_TextChanged;
+
         }
         public void LoadEmployees()
         {
@@ -105,6 +108,32 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             excel=new ExportToExcel();
             excel.ExportToExcelpost(DataGridXaml);
 
+        }
+        private void TimKiemNhanVienTheoTen(string tenNhanVien)
+        {
+            var query = from nv in context.Nhanviens
+                        join cv in context.Chucvus on nv.MaCv equals cv.MaCv
+                        where nv.TenNv.Contains(tenNhanVien)
+                        select new NhanVienView
+                        {
+                            MaNv = nv.MaNv,
+                            TenNv = nv.TenNv,
+                            NgaySinh = nv.NgaySinh,
+                            Gt = nv.Gt,
+                            DiaChi = nv.DiaChi,
+                            Email = nv.Email,
+                            Sdt = nv.Sdt,
+                            TenCv = cv.TenCv
+                        };
+         
+            DataGridXaml.ItemsSource = query.ToList();
+        }
+        private void textBoxSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+            string tenNhanVien = textBoxSearch.Text;
+           //Debug.WriteLine("TextChanged event fired. Text entered: " + tenNhanVien);
+            TimKiemNhanVienTheoTen(tenNhanVien);
         }
     }
 }
