@@ -5,11 +5,12 @@ using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Drawing;
 using System.Drawing.Printing;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Drawing;
+using System.Windows.Input;
 
 
 
@@ -23,12 +24,21 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         private PhongkhamnhakhoaContext context;
         private int currentMaPdt;
         private ObservableCollection<PhieuKhamDieuTriView> chiTietHoaDonList = new ObservableCollection<PhieuKhamDieuTriView>();
-
+        private List<string> name =new List<string>();
         public uc_hoadon()
         {
             InitializeComponent();
             context = new PhongkhamnhakhoaContext();
             LoadHoaDon();
+           /* name = new List<string>
+            {
+                "John Smith",
+                "Jane Doe",
+                "Alice Johnson",
+                "Bob Anderson",
+                // Thêm tên nhân viên khác ở đây
+            };*/
+           loadten();
         }
         public void LoadHoaDon()
         {
@@ -55,7 +65,16 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             DataGridHoaDon.ItemsSource = query.ToList();
         }
 
-
+        private void loadten()
+        {
+            var query = from nv in context.Nhanviens
+                        select nv.TenNv;
+            foreach(var item in query.ToList())
+            {
+                name.Add(item);
+            }
+        }
+    
         private void UpdateTotalAmount()
         {
             decimal tongTien = chiTietHoaDonList.Sum(item => item.TongTien);
@@ -227,5 +246,52 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
            
         }
+
+        private void txtBenhNhan_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+            string searchText = txtBenhNhan.Text.ToLower();
+
+            List<string> filteredNames = new List<string>();
+            foreach (string name in name)
+            {
+                if (name.ToLower().Contains(searchText))
+                {
+                    filteredNames.Add(name);
+                }
+            }
+
+            suggestionListBox.ItemsSource = filteredNames;
+
+            if (filteredNames.Count > 0)
+            {
+                suggestionPopup.IsOpen = true;
+            }
+            else
+            {
+                suggestionPopup.IsOpen = false;
+            }
+        }
+        private void searchTextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            suggestionPopup.IsOpen = false;
+        }
+        private void searchTextBox_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                suggestionPopup.IsOpen = false;
+            }
+        }
+        private void suggestionListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (suggestionListBox.SelectedItem != null)
+            {
+                string selectedName = suggestionListBox.SelectedItem.ToString();
+                txtBenhNhan.Text = selectedName; 
+                suggestionListBox.Visibility = Visibility.Collapsed; 
+            }
+        }
+
     }
 }

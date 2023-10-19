@@ -17,7 +17,6 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
             InitializeComponent();
         }
         public int? MaNvFromForm1 { get; set; }
-        private int currentMaPdt;
         public void hienThiTen()
         {
             using (var context = new PhongkhamnhakhoaContext())

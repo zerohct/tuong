@@ -43,13 +43,23 @@
 
                     </Grid>
 
-                    <Grid Height="25" Width="213" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 40 0 20">
+                    <Grid MaxHeight="25" Width="213" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 40 0 25">
                         <materialDesign:PackIcon Kind="People" Height="25" Width="25" VerticalAlignment="Center"/>
-                        <TextBox  x:Name="txtBenhNhan" Margin="30 0 0 0" Padding="0"
+                        <TextBox  x:Name="txtBenhNhan" Margin="30 0 0 -5" Padding="0"
                                       materialDesign:HintAssist.Hint="Nhập thông tin bệnh nhân"
-                                      Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
-
+                                      Style="{StaticResource MaterialDesignFloatingHintTextBox}" TextChanged="txtBenhNhan_TextChanged"
+                                  LostFocus="searchTextBox_LostFocus" PreviewKeyDown="searchTextBox_PreviewKeyDown"/>
+                        <Popup Name="suggestionPopup" IsOpen="False" PlacementTarget="{Binding ElementName=searchTextBox}" Placement="Bottom" StaysOpen="False" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <ListBox Name="suggestionListBox" Background="White" BorderThickness="1" SelectionChanged="suggestionListBox_SelectionChanged">
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="Background" Value="Transparent" />
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+                            </ListBox>
+                        </Popup>
                     </Grid>
+                   
                 </StackPanel>
                 <Grid  Height="200" Width="6" VerticalAlignment="Center" Background="#9A8A8A" Grid.Column="1"/>
 

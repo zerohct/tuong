@@ -1,7 +1,5 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
 using System.ComponentModel;

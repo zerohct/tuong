@@ -1,11 +1,9 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
-using System.Linq;
 using System;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using System.Xml.Linq;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
 {

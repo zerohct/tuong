@@ -1,8 +1,5 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
 using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
