@@ -1,21 +1,10 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 {
@@ -25,6 +14,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
     public partial class uc_qlbn : UserControl
     {
         private PhongkhamnhakhoaContext context;
+        private ExportToExcel excel;
         public uc_qlbn()
         {
             InitializeComponent();
@@ -102,6 +92,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             {
                 ShowErrorMessage("Chọn một bệnh nhân để xóa.");
             }
+        }
+
+        private void btnIn_Click(object sender, RoutedEventArgs e)
+        {
+            excel = new ExportToExcel();
+            excel.ExportToExcelpost(DataGridBenhNhan);
         }
     }
 }

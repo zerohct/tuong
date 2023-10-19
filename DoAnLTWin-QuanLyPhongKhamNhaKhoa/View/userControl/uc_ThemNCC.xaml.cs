@@ -1,5 +1,6 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
 using System;
 using System.Linq;
 using System.Windows;
@@ -14,10 +15,13 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
     public partial class uc_ThemNCC : UserControl
     {
         private PhongkhamnhakhoaContext context;
+        private ExportToExcel excel;
         public uc_ThemNCC()
         {
             InitializeComponent();
             context = new PhongkhamnhakhoaContext();
+            LoadNhaCungCap();
+
         }
         public void LoadNhaCungCap()
         {
@@ -80,6 +84,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             {
                 ShowErrorMessage("Chọn một nhà cung cấp để xóa.");
             }
+        }
+
+        private void btnIn_Click(object sender, RoutedEventArgs e)
+        {
+            excel = new ExportToExcel();
+            excel.ExportToExcelpost(dataaGridNCC);
         }
     }
 }

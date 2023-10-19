@@ -1,5 +1,6 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
 using System;
 using System.Linq;
 using System.Windows;
@@ -13,6 +14,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
     public partial class uc_qlcv : UserControl
     {
         private PhongkhamnhakhoaContext context;
+        private ExportToExcel excel;
         public uc_qlcv()
         {
             InitializeComponent();
@@ -89,6 +91,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             {
                 ShowErrorMessage("Chọn một Chức vụ để xóa.");
             }
+        }
+
+        private void btnIn_Click(object sender, RoutedEventArgs e)
+        {
+            excel = new ExportToExcel();
+            excel.ExportToExcelpost(DataGridXaml);
         }
     }
 }

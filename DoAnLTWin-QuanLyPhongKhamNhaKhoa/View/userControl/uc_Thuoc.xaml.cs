@@ -1,5 +1,6 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
     public partial class uc_Thuoc : UserControl
     {
         private PhongkhamnhakhoaContext context;
+        private ExportToExcel excel;
         public uc_Thuoc()
         {
             InitializeComponent();
@@ -95,6 +97,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             {
                 ShowErrorMessage("Chọn một thuốc để xóa.");
             }
+        }
+
+        private void btnIn_Click(object sender, RoutedEventArgs e)
+        {
+            excel = new ExportToExcel();
+            excel.ExportToExcelpost(DataGridThuoc);
         }
     }
 }

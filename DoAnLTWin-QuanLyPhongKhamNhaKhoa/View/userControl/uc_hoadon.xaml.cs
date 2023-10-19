@@ -10,7 +10,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Drawing;
-using System.Drawing.Printing;
+
 
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
@@ -140,31 +140,92 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
         private void btnIn_Click(object sender, RoutedEventArgs e)
         {
+            PrintDocument printDocument = new PrintDocument();
+            printDocument.PrintPage += new PrintPageEventHandler(PrintPage);
+
             PrintDialog printDialog = new PrintDialog();
 
             if (printDialog.ShowDialog() == true)
             {
-                PrintDocument printDocument = new PrintDocument();
-                printDocument.PrintPage += new PrintPageEventHandler(PrintPage);
-
+                printDocument.PrinterSettings.PrinterName = printDialog.PrintQueue.FullName;
                 printDocument.Print();
             }
+            printDocument.Dispose();
+            
         }
         private void PrintPage(object sender, PrintPageEventArgs e)
         {
             Graphics graphics = e.Graphics;
-            Font font = new Font("Arial", 12);
+            Font titleFont = new Font("Arial", 16, System.Drawing.FontStyle.Bold);
+            Font tableHeaderFont = new Font("Arial", 14, System.Drawing.FontStyle.Bold);
+            Font itemFont = new Font("Arial", 12);
             Brush brush = Brushes.Black;
+
+            float z = (e.PageBounds.Width - (int)graphics.MeasureString("HÓA ĐƠN", titleFont).Width) / 2;
             float x = 100;
             float y = 100;
+            decimal totalCost = 0;
 
- 
+            string title = "HÓA ĐƠN";
+            float titleX = (e.PageBounds.Width - graphics.MeasureString(title, titleFont).Width) / 2;
+            float titleY = 100;
+            graphics.DrawString(title, titleFont, brush, titleX, titleY);
+            
+            string imagePath = "D:\\ca-master\\DoAnLTWin-QuanLyPhongKhamNhaKhoa\\image\\Logo\\logo.png";
+
+            if (System.IO.File.Exists(imagePath))
+            {
+                using (System.Drawing.Image image = System.Drawing.Image.FromFile(imagePath))
+                {
+                    float imageWidth = 150;
+                    float imageHeight = 150;
+                    graphics.DrawImage(image, 50, 50, imageWidth, imageHeight);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Tệp hình ảnh không tồn tại.");
+            }
+            float col1X = 150;
+            float col2X = 200;
+            float col3X = 350;
+            float col4X = 500;
+            float tableY = titleY + 80;
+
+            Pen pen = new Pen(Brushes.Black, 2);
+            tableY += 25;
+            graphics.DrawLine(pen, col1X, tableY, col4X + 100, tableY);
+
+            graphics.DrawString("STT", tableHeaderFont, brush, col1X, tableY);
+            graphics.DrawString("Dịch Vụ", tableHeaderFont, brush, col2X, tableY);
+            graphics.DrawString("Số Lượng", tableHeaderFont, brush, col3X, tableY);
+            graphics.DrawString("Thành Tiền", tableHeaderFont, brush, col4X, tableY);
+
+            
+            Pen pen1 = new Pen(Brushes.Black, 2);
+            tableY += 25;
+            graphics.DrawLine(pen1, col1X, tableY, col4X+100, tableY) ;
+            int stt = 1;
+            tableY += 40;
             foreach (var item in chiTietHoaDonList)
             {
-                string line = $"Dịch vụ: {item.TenDv}, Số lượng: {item.Sl}, Giá: {item.Giadv}, Tổng tiền: {item.TongTien}";
-                graphics.DrawString(line, font, brush, x, y);
-                y += 30; 
+                graphics.DrawString(stt.ToString(), itemFont, brush, col1X, tableY);
+                graphics.DrawString(item.TenDv, itemFont, brush, col2X, tableY);
+                graphics.DrawString(item.Sl.ToString(), itemFont, brush, col3X, tableY);
+                graphics.DrawString(item.TongTien.ToString(), itemFont, brush, col4X, tableY);
+                totalCost += item.TongTien;
+                tableY += 40;
+                stt++;
             }
+            Pen pen2 = new Pen(Brushes.Black, 2);
+            tableY += 20;
+            graphics.DrawLine(pen2, col1X, tableY, col4X + 100, tableY);
+
+            string totalCostString = "Tổng tiền hóa đơn: " + totalCost.ToString();
+            graphics.DrawString(totalCostString, itemFont, brush, col3X, tableY + 40);
+
+
+           
         }
     }
 }

@@ -516,6 +516,17 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFra
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\EntityFramework.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Humanizer.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.barcodes.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.bouncy-castle-connector.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.forms.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.io.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.kernel.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.layout.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.pdfa.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.sign.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.styledxmlparser.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.svg.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itext.commons.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\itextsharp.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
@@ -554,6 +565,7 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialD
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
@@ -585,6 +597,7 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
@@ -606,6 +619,8 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.AssemblyReference.cache
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.ResolveComReference.cache
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppButton.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\AppStyle\AppIcon.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\Style\CustomStyle\AngleRight.baml

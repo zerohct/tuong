@@ -115,7 +115,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;component/view/form/emainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;V1.0.0.0;component/view/form/emainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Form\EMainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

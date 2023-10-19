@@ -36,7 +36,7 @@
                     <Button Content="Xóa Nhà Cung Cấp" Style="{StaticResource AppButton}" x:Name="btnXoa" Click="btnXoa_Click"/>
                 </Grid>
                 <Grid Grid.Column="4">
-                    <Button Content="In Thông Tin Nhà CC" Style="{StaticResource AppButton}" />
+                    <Button Content="In Thông Tin Nhà CC" Style="{StaticResource AppButton}" x:Name="btnIn" Click="btnIn_Click" />
                 </Grid>
             </Grid>
             <Grid Grid.Row="2">

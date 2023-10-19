@@ -35,7 +35,7 @@
                     <Button Content="Xóa chức vụ" Style="{StaticResource AppButton}" x:Name="btnXoa" Click="btnXoa_Click"/>
                 </Grid>
                 <Grid Grid.Column="4">
-                    <Button Content="In Thông Tin" Style="{StaticResource AppButton}" />
+                    <Button Content="In Thông Tin" Style="{StaticResource AppButton}" x:Name="btnIn" Click="btnIn_Click"/>
                 </Grid>
             </Grid>
             <Grid Grid.Row="2">
