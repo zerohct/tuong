@@ -29,7 +29,7 @@
                 <StackPanel Grid.Column="0">
                     <Grid Height="30" Width="213" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 35 0 0">
                         <materialDesign:PackIcon Kind="Account" Height="25" Width="25" VerticalAlignment="Center"/>
-                        <TextBox  x:Name="txbNameNv" Margin="30 0 0 0" Padding="0"
+                        <TextBox  x:Name="txbNameNv" Margin="30 0 0 0" Padding="0" IsReadOnly="True"
                                       materialDesign:HintAssist.Hint="Nhập thông tin nhân viên"
                                       Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                     </Grid>

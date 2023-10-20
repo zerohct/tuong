@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Linq;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
 {
@@ -22,10 +23,11 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         }
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            string username = txt_userName.Text;
-            //string password1 = txtb_password.Text; 
-            string password = txt_password.Password; 
-            
+            string username = txt_userName.Text; 
+            string password = txt_password.Password;
+            EmployeeService employeeService = new EmployeeService();
+            Nhanvien employee = employeeService.GetEmployeeByLogin(username, password);
+
 
             if (!string.IsNullOrWhiteSpace(username) && !string.IsNullOrWhiteSpace(password))
             {                
@@ -52,6 +54,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
                         MessageBox.Show("Đăng nhập thành công!");
                         EMainWindow mainWindow = new EMainWindow();
                         mainWindow.MaNvFromForm1 = user.MaNv;
+                        mainWindow.SetEmployeeName(employee.TenNv);
                         mainWindow.hienThiTen();
                         mainWindow.Show();
                         this.Close();

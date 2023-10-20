@@ -120,7 +120,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;V1.0.0.0;component/view/form/login_form.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;component/view/form/login_form.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Form\login_Form.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -55,8 +55,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;V1.0.0.0;component/view/usercontrol/navigationb" +
-                    "ar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;component/view/usercontrol/navigationbar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\userControl\navigationBar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

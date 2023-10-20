@@ -30,15 +30,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             InitializeComponent();
             context = new PhongkhamnhakhoaContext();
             LoadHoaDon();
-           /* name = new List<string>
-            {
-                "John Smith",
-                "Jane Doe",
-                "Alice Johnson",
-                "Bob Anderson",
-                // Thêm tên nhân viên khác ở đây
-            };*/
            loadten();
+            
+        }
+        public void SetEmployeeName(string name)
+        {
+            txbNameNv.Text = name;
         }
         public void LoadHoaDon()
         {

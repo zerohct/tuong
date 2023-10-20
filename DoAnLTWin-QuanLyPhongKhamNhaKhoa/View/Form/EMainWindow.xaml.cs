@@ -12,9 +12,15 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
     /// </summary>
     public partial class EMainWindow : Window
     {
+        private uc_hoadon hd;
         public EMainWindow()
         {
             InitializeComponent();
+            hd=new uc_hoadon();
+        }
+        public void SetEmployeeName(string name)
+        {
+            hd.SetEmployeeName(name);
         }
         public int? MaNvFromForm1 { get; set; }
         public void hienThiTen()
@@ -89,8 +95,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         }*/
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
         {
-            /*currentMaPdt = GetNewestMaPdt();*/
-            uc_hoadon hd=new uc_hoadon();
+
             contentControl.Content = hd;
         }
     }
