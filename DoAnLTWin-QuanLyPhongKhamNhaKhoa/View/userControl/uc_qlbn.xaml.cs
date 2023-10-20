@@ -1,5 +1,5 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model.export;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
 using System.ComponentModel;
@@ -15,12 +15,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
     /// </summary>
     public partial class uc_qlbn : UserControl
     {
-        private PhongkhamnhakhoaContext context;
+        private DaphongkhamnhakhoaContext context;
         private ExportToExcel excel;
         public uc_qlbn()
         {
             InitializeComponent();
-            context = new PhongkhamnhakhoaContext();
+            context = new DaphongkhamnhakhoaContext();
             LoadPatient();
         }
         public void LoadPatient()

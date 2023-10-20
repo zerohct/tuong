@@ -1,6 +1,6 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model.export;
 using System;
 using System.ComponentModel;
 using System.Linq;
@@ -15,12 +15,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
     /// </summary>
     public partial class uc_qlcv : UserControl
     {
-        private PhongkhamnhakhoaContext context;
+        private DaphongkhamnhakhoaContext context;
         private ExportToExcel excel;
         public uc_qlcv()
         {
             InitializeComponent();
-            context = new PhongkhamnhakhoaContext();
+            context = new DaphongkhamnhakhoaContext();
             LoadChucVus();
         }
         public void LoadChucVus()

@@ -1,4 +1,4 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using System;
 using System.Linq;
 using System.Windows;
@@ -12,7 +12,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
     /// </summary>
     public partial class ThemDichVu : Window
     {
-        private PhongkhamnhakhoaContext context = new PhongkhamnhakhoaContext();
+        private DaphongkhamnhakhoaContext context = new DaphongkhamnhakhoaContext();
         private Dichvu dv;
         public ThemDichVu()
         {

@@ -81,6 +81,12 @@
                             <ComboBoxItem Content="Hủy" />
                         </ComboBox>
                     </Grid>
+                    <Grid Height="30" Width="213" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 35 0 0">
+                        <materialDesign:PackIcon Kind="Pen" Height="25" Width="25" VerticalAlignment="Center"/>
+                        <TextBox  x:Name="txtnddt" Margin="30 0 0 0" Padding="0" 
+                  materialDesign:HintAssist.Hint="Nhập nội dung điều trị"
+                  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    </Grid>
 
                 </StackPanel>
 

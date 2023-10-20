@@ -1,4 +1,4 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Input;
@@ -12,14 +12,14 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
     /// </summary>
     public partial class Create_Account : Window
     {
-        private PhongkhamnhakhoaContext context;
+        private DaphongkhamnhakhoaContext context;
         private Taikhoan tk;
         List<Nhanvien> nvlist = new List<Nhanvien>();
         public Create_Account()
         {
             InitializeComponent();
             
-            context = new PhongkhamnhakhoaContext();
+            context = new DaphongkhamnhakhoaContext();
             LoadDataIntoComboBox();
         }
 

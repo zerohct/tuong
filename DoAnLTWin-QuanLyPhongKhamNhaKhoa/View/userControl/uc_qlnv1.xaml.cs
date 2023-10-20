@@ -1,6 +1,6 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1.export;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model.export;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using System;
 using System.Collections.Generic;
@@ -17,12 +17,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
     public partial class uc_qlnv1 : UserControl
     {
-        private PhongkhamnhakhoaContext context;
+        private DaphongkhamnhakhoaContext context;
         private ExportToExcel excel;
         public uc_qlnv1()
         {
             InitializeComponent();
-            context = new PhongkhamnhakhoaContext();
+            context = new DaphongkhamnhakhoaContext();
             LoadEmployees();
             textBoxSearch.TextChanged += textBoxSearch_TextChanged;
 

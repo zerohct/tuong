@@ -1,4 +1,4 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
     /// </summary>
     public partial class ThemThuoc : Window
     {
-        private PhongkhamnhakhoaContext context = new PhongkhamnhakhoaContext();
+        private DaphongkhamnhakhoaContext context = new DaphongkhamnhakhoaContext();
         List<Nhacungcap> NhaCCList = new List<Nhacungcap>();
         List<Dangthuoc> DangThuocList = new List<Dangthuoc>();
         private Thuoc newThuoc;

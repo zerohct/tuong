@@ -1,4 +1,4 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView
     {
         public Nhanvien GetEmployeeByLogin(string username, string password)
         {
-            using (var context = new PhongkhamnhakhoaContext())
+            using (var context = new DaphongkhamnhakhoaContext())
             {
                 var account = context.Taikhoans.FirstOrDefault(a => a.TenDangNhap == username && a.MatKhau == password);
                 if (account != null)

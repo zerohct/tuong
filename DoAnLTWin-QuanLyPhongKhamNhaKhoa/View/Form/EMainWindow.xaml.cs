@@ -1,4 +1,4 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl;
 using System.Linq;
 using System.Windows;
@@ -25,7 +25,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         public int? MaNvFromForm1 { get; set; }
         public void hienThiTen()
         {
-            using (var context = new PhongkhamnhakhoaContext())
+            using (var context = new DaphongkhamnhakhoaContext())
             {
                 int? chucVuId = context.Nhanviens.FirstOrDefault(nv => nv.MaNv == MaNvFromForm1).MaCv;
 

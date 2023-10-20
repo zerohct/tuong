@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 using System.Windows.Controls;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using System.Linq;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa

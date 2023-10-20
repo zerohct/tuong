@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Linq;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
@@ -31,7 +31,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
 
             if (!string.IsNullOrWhiteSpace(username) && !string.IsNullOrWhiteSpace(password))
             {                
-                using (var context = new PhongkhamnhakhoaContext())
+                using (var context = new DaphongkhamnhakhoaContext())
                 {
                     var user = context.Taikhoans.FirstOrDefault(u => u.TenDangNhap == username && u.MatKhau == password);
                     if (user == null)

@@ -1,4 +1,4 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
     /// </summary>
     public partial class ThemThietBi : Window
     {
-        private PhongkhamnhakhoaContext context;
+        private DaphongkhamnhakhoaContext context;
         List<Nhacungcap> NhaCCList = new List<Nhacungcap>();
         private Thietbi newtb;
         private Nhacungcap newncc;
@@ -22,13 +22,13 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         public ThemThietBi()
         {
             InitializeComponent();
-            context = new PhongkhamnhakhoaContext();
+            context = new DaphongkhamnhakhoaContext();
             LoadDataIntoComboBox();
         }
         public ThemThietBi(ThietBiView thietbi)
         {
             InitializeComponent();
-            context = new PhongkhamnhakhoaContext();
+            context = new DaphongkhamnhakhoaContext();
             LoadDataIntoComboBox();
             this.dTO = thietbi;
             nhanData(dTO);

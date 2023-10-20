@@ -1,4 +1,4 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,7 +13,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
     /// </summary>
     public partial class ChiTietHoaDon : Window
     {
-        private PhongkhamnhakhoaContext context;
+        private DaphongkhamnhakhoaContext context;
         private List<Dichvu> dichVuList = new List<Dichvu>();
         private List<PhieuKhamDieuTriView> phieuKhamDieuTri = new List<PhieuKhamDieuTriView>();
 
@@ -21,12 +21,13 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
         public ChiTietHoaDon()
         {
             InitializeComponent();
-            context = new PhongkhamnhakhoaContext();
+            context = new DaphongkhamnhakhoaContext();
             LoadDataIntoComboBox();
             txtMaDv.IsReadOnly = true;
             txtDvt.IsReadOnly = true;
             txtGiaDv.IsReadOnly = true;
             txtTgbh.IsReadOnly = true;
+            txtKhuyenMai.IsReadOnly = true;
         }
 
         private void LoadDataIntoComboBox()
@@ -80,8 +81,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
 
         private bool IsValidInput()
         {
-            if (string.IsNullOrWhiteSpace(txtMaDv.Text) || cbTenDv.SelectedItem == null || string.IsNullOrWhiteSpace(txtDvt.Text) ||
-                string.IsNullOrWhiteSpace(txtSl.Text) || string.IsNullOrWhiteSpace(txtGiaDv.Text) || string.IsNullOrWhiteSpace(txtTgbh.Text))
+            if (cbTenDv.SelectedItem == null || string.IsNullOrWhiteSpace(txtSl.Text) )
             {
                 ShowErrorMessage("Vui lòng điền đầy đủ thông tin chi tiết hóa đơn.");
                 return false;
@@ -133,6 +133,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
                 txtDvt.Text = selectedDichVu.Dvt;
                 txtGiaDv.Text = selectedDichVu.Giadv.ToString();
                 txtTgbh.Text = selectedDichVu.Tgbh.ToString();
+                txtKhuyenMai.Text=selectedDichVu.Khuyenmai.ToString();
             }
         }
     }

@@ -1,5 +1,5 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -15,7 +15,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
     /// </summary>
     public partial class ThemNhanVien : Window
     {
-        private PhongkhamnhakhoaContext context = new PhongkhamnhakhoaContext();
+        private DaphongkhamnhakhoaContext context = new DaphongkhamnhakhoaContext();
         List<Chucvu> chucVuList = new List<Chucvu>();
         private Nhanvien newEmployee = new Nhanvien();
         private NhanVienView dTO;

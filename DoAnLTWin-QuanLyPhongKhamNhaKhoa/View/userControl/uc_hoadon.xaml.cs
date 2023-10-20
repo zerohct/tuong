@@ -1,5 +1,5 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model1;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
@@ -21,55 +21,28 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
     /// </summary>
     public partial class uc_hoadon : UserControl
     {
-        private PhongkhamnhakhoaContext context;
+        private DaphongkhamnhakhoaContext context;
         private int currentMaPdt;
         private ObservableCollection<PhieuKhamDieuTriView> chiTietHoaDonList = new ObservableCollection<PhieuKhamDieuTriView>();
-        private List<string> name =new List<string>();
+        private ObservableCollection<string> name; 
+        private string selectedName;
         public uc_hoadon()
         {
             InitializeComponent();
-            context = new PhongkhamnhakhoaContext();
-            LoadHoaDon();
-           loadten();
+            context = new DaphongkhamnhakhoaContext();
+            loadten();
             
         }
         public void SetEmployeeName(string name)
         {
             txbNameNv.Text = name;
         }
-        public void LoadHoaDon()
-        {
-            /*currentMaPdt = maPdt;*/
 
-            var query = from dv in context.Dichvus
-                        join c in context.Ctpkdts
-                        on dv.MaDv equals c.MaDv
-                        join pdt in context.Phieudieutris
-                        on c.MaPdt equals pdt.MaPdt
-                        where pdt.MaPdt == currentMaPdt
-                        select new PhieuKhamDieuTriView
-                        {
-                            MaPdt = pdt.MaPdt,
-                            MaDv = dv.MaDv,
-                            TenDv = dv.TenDv,
-                            Dvt = dv.Dvt,
-                            Sl = c.Sl,
-                            Khuyenmai = dv.Khuyenmai,
-                            Giadv = dv.Giadv,
-                            Tgbh = dv.Tgbh,
-                            TongTien = c.Sl * dv.Giadv,
-                        };
-            DataGridHoaDon.ItemsSource = query.ToList();
-        }
 
         private void loadten()
         {
-            var query = from nv in context.Nhanviens
-                        select nv.TenNv;
-            foreach(var item in query.ToList())
-            {
-                name.Add(item);
-            }
+            name = new ObservableCollection<string>(context.Benhnhans.Select(nv => nv.TenBn));
+            txtBenhNhan.TextChanged += txtBenhNhan_TextChanged;
         }
     
         private void UpdateTotalAmount()
@@ -110,7 +83,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         private void btnLuu_Click(object sender, RoutedEventArgs e)
         {
             DateTime? selectedNgayLap = dtNTNS.SelectedDate;
-            using (var dbContext = new PhongkhamnhakhoaContext())
+            using (var dbContext = new DaphongkhamnhakhoaContext())
             {
                 if (chiTietHoaDonList.Any())
                 {
@@ -129,8 +102,10 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
                     {
                         pdt.MaNv = nhanVien.MaNv;
                     }
-
+                    pdt.Nddt = txtnddt.Text;
+                    pdt.TrangThai = cbTrangThai.Text;
                     dbContext.Phieudieutris.Add(pdt);
+                    dbContext.SaveChanges();
                     foreach (var cthd in chiTietHoaDonList)
                     {
                         Ctpkdt ctpkdt = new Ctpkdt();
@@ -262,17 +237,11 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
         private void txtBenhNhan_TextChanged(object sender, TextChangedEventArgs e)
         {
-
             string searchText = txtBenhNhan.Text.ToLower();
 
-            List<string> filteredNames = new List<string>();
-            foreach (string name in name)
-            {
-                if (name.ToLower().Contains(searchText))
-                {
-                    filteredNames.Add(name);
-                }
-            }
+            List<string> filteredNames = name
+                .Where(n => n.ToLower().Contains(searchText))
+                .ToList();
 
             suggestionListBox.ItemsSource = filteredNames;
 
@@ -300,9 +269,9 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         {
             if (suggestionListBox.SelectedItem != null)
             {
-                string selectedName = suggestionListBox.SelectedItem.ToString();
-                txtBenhNhan.Text = selectedName; 
-                suggestionListBox.Visibility = Visibility.Collapsed; 
+                selectedName = suggestionListBox.SelectedItem.ToString();
+                txtBenhNhan.Text = selectedName;
+                suggestionPopup.IsOpen = false;
             }
         }
 
