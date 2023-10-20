@@ -109,11 +109,26 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
         private void btnLuu_Click(object sender, RoutedEventArgs e)
         {
+            DateTime? selectedNgayLap = dtNTNS.SelectedDate;
             using (var dbContext = new PhongkhamnhakhoaContext())
             {
                 if (chiTietHoaDonList.Any())
                 {
                     Phieudieutri pdt = new Phieudieutri();
+                    pdt.Ngaylap = selectedNgayLap;
+                    pdt.Tongtien = Convert.ToDecimal(txtTongTien.Text);
+                    string tenBenhNhan = txtBenhNhan.Text;
+                    var benhNhan = dbContext.Benhnhans.FirstOrDefault(bn => bn.TenBn == tenBenhNhan);
+                    if (benhNhan != null)
+                    {
+                        pdt.MaBn = benhNhan.MaBn;
+                    }
+                    string tenNhanVien = txbNameNv.Text;
+                    var nhanVien = dbContext.Nhanviens.FirstOrDefault(nv => nv.TenNv == tenNhanVien);
+                    if (nhanVien != null)
+                    {
+                        pdt.MaNv = nhanVien.MaNv;
+                    }
 
                     dbContext.Phieudieutris.Add(pdt);
                     foreach (var cthd in chiTietHoaDonList)
@@ -128,6 +143,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
                     }
 
                     dbContext.SaveChanges();
+                    
                 }
             }
         }

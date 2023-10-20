@@ -75,27 +75,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         {
 
         }
-/*        public int GetNewestMaPdt()
-        {
-            using (var context = new PhongkhamnhakhoaContext())
-            {
-                var newestMaPdt = context.Phieudieutris
-                    .OrderByDescending(pdt => pdt.MaPdt)
-                    .Select(pdt => pdt.MaPdt)
-                    .FirstOrDefault();
-                if (newestMaPdt != null)
-                {
-                    return newestMaPdt + 1;
-                }
-                else
-                {
-                    return 1;
-                }
-            }
-        }*/
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
         {
-
             contentControl.Content = hd;
         }
     }
