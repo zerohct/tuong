@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Drawing.Printing;
 using System.Linq;
 using System.Windows;
@@ -184,20 +185,51 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             {
                 using (System.Drawing.Image image = System.Drawing.Image.FromFile(imagePath))
                 {
-                    float imageWidth = 150;
-                    float imageHeight = 150;
-                    graphics.DrawImage(image, 50, 50, imageWidth, imageHeight);
+                    float imageWidth = 80;
+                    float imageHeight = 80;
+
+                    GraphicsPath path = new GraphicsPath();
+                    path.AddEllipse(100, 100, imageWidth, imageHeight);
+
+                    Region originalClip = graphics.Clip;
+                    graphics.Clip = new Region(path);
+
+                    graphics.DrawImage(image, 100, 100, imageWidth, imageHeight);
+
+                    graphics.Clip = originalClip;
+
+                    path.Dispose();
                 }
             }
             else
             {
                 Console.WriteLine("Tệp hình ảnh không tồn tại.");
             }
+            float patientX = 150;
+            float employeeX = e.PageBounds.Width - 450; 
+            float namesY = titleY + 50; 
+            string patientName = "Tên bệnh nhân: " + txtBenhNhan.Text;
+            string employeeName = "Tên nhân viên: " + txbNameNv.Text;
+            graphics.DrawString(patientName, itemFont, brush, patientX, namesY);
+            graphics.DrawString(employeeName, itemFont, brush, employeeX, namesY);
+            namesY += 50;
+            DateTime? selectedNgayLap = dtNTNS.SelectedDate;
+            if (selectedNgayLap != null)
+            {
+                string ngayLapString = "Ngày lập: " + selectedNgayLap.Value.ToShortDateString();
+                graphics.DrawString(ngayLapString, itemFont,brush, patientX, namesY);
+            }
+            string trangThaiString = "Trạng thái: " + cbTrangThai.Text;
+            graphics.DrawString(trangThaiString, itemFont, brush, employeeX, namesY);
+            namesY += 50;
+            string nddt = "Nội Dung điều trị : " + txtnddt.Text;
+            graphics.DrawString(nddt, itemFont, brush, patientX, namesY);
+
             float col1X = 150;
             float col2X = 200;
             float col3X = 350;
             float col4X = 500;
-            float tableY = titleY + 80;
+            float tableY = namesY + 50;
 
             Pen pen = new Pen(Brushes.Black, 2);
             tableY += 25;

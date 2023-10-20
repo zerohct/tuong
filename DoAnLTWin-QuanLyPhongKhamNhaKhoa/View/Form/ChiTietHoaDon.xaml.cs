@@ -50,10 +50,18 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
             cthdData.MaDv = int.Parse(txtMaDv.Text);
             cthdData.TenDv = (cbTenDv.SelectedItem as Dichvu)?.TenDv;
             cthdData.Dvt = txtDvt.Text;
-            cthdData.Sl = int.Parse(txtSl.Text);
             cthdData.Giadv = decimal.Parse(txtGiaDv.Text);
-            cthdData.Tgbh = double.Parse(txtTgbh.Text);
+            cthdData.Sl = int.Parse(txtSl.Text);
             cthdData.TongTien = (cthdData.Sl * cthdData.Giadv);
+            if (!string.IsNullOrEmpty(txtTgbh.Text) && double.TryParse(txtTgbh.Text, out double tgbhValue))
+            {
+                cthdData.Tgbh = tgbhValue;
+            }
+            else
+            {
+                cthdData.Tgbh = 0;
+            }
+            
 
             return cthdData;
         }

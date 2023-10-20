@@ -124,5 +124,10 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
             uc_hoadon hd = new uc_hoadon();
             contentControl.Content = hd;
         }
+
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

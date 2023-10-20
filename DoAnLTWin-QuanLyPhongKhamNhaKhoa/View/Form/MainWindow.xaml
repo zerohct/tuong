@@ -49,6 +49,15 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                             <Separator Margin="25" DockPanel.Dock="Top" Height="1.8" Background="#fefefe"/>
                             <!--Menu Button-->
                             <!--1-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}" Margin="25,0,65,0" x:Name="btnHome" Click="btnHome_Click">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="Home" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Trang chủ"/>
+                                    </StackPanel>
+                                </Button>
+                            </StackPanel>
+                            <!--2-->
                             <StackPanel DockPanel.Dock="Top"  >
                                 <Expander x:Name="EmployeeExpander" Margin="2" Background="#99ffcc">
                                     <Expander.Header>
@@ -85,7 +94,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </Expander.Content>
                                 </Expander>
                             </StackPanel>
-                            <!--2-->
+                            <!--3-->
                             <StackPanel DockPanel.Dock="Top">
                                 <Button Style="{StaticResource MenuButton}" Margin="25,0,65,0" x:Name="btnBenhNhan" Click="btnBenhNhan_Click">
                                     <StackPanel Orientation="Horizontal">
@@ -94,7 +103,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </StackPanel>
                                 </Button>
                             </StackPanel>
-                            <!--3-->
+                            <!--4-->
                             <StackPanel DockPanel.Dock="Top" >
                                 <Expander x:Name="deviceExpander" Margin="2" Background="#99ffcc">
                                     <Expander.Header>
@@ -125,7 +134,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </Expander.Content>
                                 </Expander>
                             </StackPanel>
-                            <!--4-->
+                            <!--5-->
                             <StackPanel DockPanel.Dock="Top">
                                 <Button Style="{StaticResource MenuButton}"  Margin="25,0,65,0" x:Name="btnDichVu" Click="btnDichVu_Click">
                                     <StackPanel Orientation="Horizontal">
@@ -134,7 +143,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </StackPanel>
                                 </Button>
                             </StackPanel>
-                            <!--5-->
+                            <!--6-->
                             <StackPanel DockPanel.Dock="Top" Margin="0,0,0,-5">
                                 <Expander x:Name="SupplierExpander"  Background="#99ffcc" >
                                     <Expander.Header>
@@ -183,7 +192,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </Expander.Content>
                                 </Expander>
                             </StackPanel>
-                            <!--6-->
+                            <!--7-->
                             <StackPanel DockPanel.Dock="Top" >
                                 <Expander x:Name="CheckExpander" Background="#99ffcc" >
                                     <Expander.Header>
@@ -238,7 +247,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </Expander.Content>
                                 </Expander>
                             </StackPanel>
-                            <!--7-->
+                            <!--8-->
                             <StackPanel DockPanel.Dock="Top">
                                 <Button Style="{StaticResource MenuButton}"  Margin="25,0,65,0">
                                     <StackPanel Orientation="Horizontal">
