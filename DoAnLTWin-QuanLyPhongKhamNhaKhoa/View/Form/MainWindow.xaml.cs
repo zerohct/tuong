@@ -18,6 +18,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
         public MainWindow()
         {
             InitializeComponent();
+            Home trangchu = new Home();
+            contentControl.Content = trangchu;
         }
        
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -127,7 +129,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
 
         private void btnHome_Click(object sender, RoutedEventArgs e)
         {
-
+            Home trangchu = new Home();
+            contentControl.Content = trangchu;
         }
     }
 }

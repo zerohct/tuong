@@ -1,17 +1,16 @@
-﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Drawing.Printing;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+
 
 
 
@@ -27,6 +26,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         private ObservableCollection<PhieuKhamDieuTriView> chiTietHoaDonList = new ObservableCollection<PhieuKhamDieuTriView>();
         private ObservableCollection<string> name; 
         private string selectedName;
+
         public uc_hoadon()
         {
             InitializeComponent();
@@ -148,20 +148,64 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
         private void btnIn_Click(object sender, RoutedEventArgs e)
         {
-            PrintDocument printDocument = new PrintDocument();
+            DateTime? selectedNgayLap = dtNTNS.SelectedDate;
+            using (var dbContext = new DaphongkhamnhakhoaContext())
+            {
+                if (chiTietHoaDonList.Any())
+                {
+                    Phieudieutri pdt = new Phieudieutri();
+                    pdt.Ngaylap = selectedNgayLap;
+                    pdt.Tongtien = Convert.ToDecimal(txtTongTien.Text);
+                    string tenBenhNhan = txtBenhNhan.Text;
+                    var benhNhan = dbContext.Benhnhans.FirstOrDefault(bn => bn.TenBn == tenBenhNhan);
+                    if (benhNhan != null)
+                    {
+                        pdt.MaBn = benhNhan.MaBn;
+                    }
+                    string tenNhanVien = txbNameNv.Text;
+                    var nhanVien = dbContext.Nhanviens.FirstOrDefault(nv => nv.TenNv == tenNhanVien);
+                    if (nhanVien != null)
+                    {
+                        pdt.MaNv = nhanVien.MaNv;
+                    }
+                    pdt.Nddt = txtnddt.Text;
+                    pdt.TrangThai = cbTrangThai.Text;
+                    dbContext.Phieudieutris.Add(pdt);
+                    dbContext.SaveChanges();
+                    foreach (var cthd in chiTietHoaDonList)
+                    {
+                        Ctpkdt ctpkdt = new Ctpkdt();
+
+                        ctpkdt.MaPdt = pdt.MaPdt;
+                        ctpkdt.MaDv = cthd.MaDv;
+                        ctpkdt.Sl = cthd.Sl;
+                        ctpkdt.Dongia = cthd.Giadv;
+                        dbContext.Ctpkdts.Add(ctpkdt);
+                    }
+
+                    dbContext.SaveChanges();
+                    XuatHoaDon hoaDon = new XuatHoaDon(tenBenhNhan,tenNhanVien, pdt.Tongtien,pdt.TrangThai,pdt.Nddt,pdt.Ngaylap,chiTietHoaDonList);
+                    hoaDon.ShowDialog();
+
+                }
+            }
+           
+            /*PrintDocument printDocument = new PrintDocument();
             printDocument.PrintPage += new PrintPageEventHandler(PrintPage);
+            
 
             PrintDialog printDialog = new PrintDialog();
 
             if (printDialog.ShowDialog() == true)
             {
+               
                 printDocument.PrinterSettings.PrinterName = printDialog.PrintQueue.FullName;
                 printDocument.Print();
             }
-            printDocument.Dispose();
-            
+            printDocument.Dispose();*/
+
         }
-        private void PrintPage(object sender, PrintPageEventArgs e)
+        /*private void PrintPage(object sender, PrintPageEventArgs e)
         {
             Graphics graphics = e.Graphics;
             Font titleFont = new Font("Arial", 16, System.Drawing.FontStyle.Bold);
@@ -178,36 +222,32 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             float titleX = (e.PageBounds.Width - graphics.MeasureString(title, titleFont).Width) / 2;
             float titleY = 100;
             graphics.DrawString(title, titleFont, brush, titleX, titleY);
-            
-            string imagePath = "D:\\ca-master\\DoAnLTWin-QuanLyPhongKhamNhaKhoa\\image\\Logo\\logo.png";
-
-            if (System.IO.File.Exists(imagePath))
+            System.Drawing.Image image = System.Drawing.Image.FromFile("D:/ca-master/DoAnLTWin-QuanLyPhongKhamNhaKhoa/image/Logo/logo.png");
+ 
+            float imageWidth = image.Width * 10 / image.HorizontalResolution;
+            float imageHeight = image.Height * 10 / image.VerticalResolution;
+            float widthFactor = imageWidth / e.MarginBounds.Width;
+            float heightFactor = imageHeight / e.MarginBounds.Height;
+            if (widthFactor > 1 || heightFactor > 1)
             {
-                using (System.Drawing.Image image = System.Drawing.Image.FromFile(imagePath))
+                if (widthFactor > heightFactor)
                 {
-                    float imageWidth = 80;
-                    float imageHeight = 80;
-
-                    GraphicsPath path = new GraphicsPath();
-                    path.AddEllipse(100, 100, imageWidth, imageHeight);
-
-                    Region originalClip = graphics.Clip;
-                    graphics.Clip = new Region(path);
-
-                    graphics.DrawImage(image, 100, 100, imageWidth, imageHeight);
-
-                    graphics.Clip = originalClip;
-
-                    path.Dispose();
+                    imageWidth = imageWidth / widthFactor;
+                    imageHeight = imageHeight / widthFactor;
+                }
+                else
+                {
+                    imageWidth = imageWidth / heightFactor;
+                    imageHeight = imageHeight / heightFactor;
                 }
             }
-            else
-            {
-                Console.WriteLine("Tệp hình ảnh không tồn tại.");
-            }
+            float ix = e.MarginBounds.X + (e.MarginBounds.Width - imageWidth) / 2;
+            float iy = e.MarginBounds.Y + (e.MarginBounds.Height - imageHeight) / 2;
+            e.Graphics.DrawImage(image, ix, iy, imageWidth, imageHeight);
+
             float patientX = 150;
             float employeeX = e.PageBounds.Width - 450; 
-            float namesY = titleY + 50; 
+            float namesY = titleY + 100; 
             string patientName = "Tên bệnh nhân: " + txtBenhNhan.Text;
             string employeeName = "Tên nhân viên: " + txbNameNv.Text;
             graphics.DrawString(patientName, itemFont, brush, patientX, namesY);
@@ -266,7 +306,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
            
         }
-
+*/
         private void txtBenhNhan_TextChanged(object sender, TextChangedEventArgs e)
         {
             string searchText = txtBenhNhan.Text.ToLower();

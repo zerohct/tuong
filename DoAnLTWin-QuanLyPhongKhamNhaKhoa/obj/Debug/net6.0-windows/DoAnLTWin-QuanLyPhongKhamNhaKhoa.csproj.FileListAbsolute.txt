@@ -595,11 +595,13 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Drawing.Common.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Memory.Data.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
@@ -611,11 +613,13 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.csproj.AssemblyReference.cache
@@ -647,6 +651,7 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\XuatHoaDon.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.g.cs
@@ -675,6 +680,7 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemNhanVien.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\XuatHoaDon.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.baml
@@ -696,3 +702,7 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\refint\Do
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.genruntimeconfig.cache
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\ref\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\Home.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\HomePage.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\Home.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\HomePage.baml

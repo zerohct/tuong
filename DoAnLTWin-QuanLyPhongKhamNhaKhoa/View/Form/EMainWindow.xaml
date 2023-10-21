@@ -48,6 +48,15 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                             <Separator Margin="25" DockPanel.Dock="Top" Height="0.8" Background="#fefefe"/>
                             <!--Menu Button-->
                             <!--1-->
+                            <StackPanel DockPanel.Dock="Top">
+                                <Button Style="{StaticResource MenuButton}" Margin="25,0,65,0" x:Name="btnHome" Click="btnHome_Click">
+                                    <StackPanel Orientation="Horizontal">
+                                        <icon:PackIconMaterial Kind="Home" Style="{StaticResource MenuIcon}"/>
+                                        <TextBlock Text="Trang chủ"/>
+                                    </StackPanel>
+                                </Button>
+                            </StackPanel>
+                            <!--2-->
                             <StackPanel DockPanel.Dock="Top"  >
                                 <Expander x:Name="PatientExpander" Margin="2" Background="#99ffcc">
                                     <Expander.Header>

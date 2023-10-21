@@ -17,6 +17,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         {
             InitializeComponent();
             hd=new uc_hoadon();
+            Home trangchu = new Home();
+            contentControl.Content = trangchu;
         }
         public void SetEmployeeName(string name)
         {
@@ -78,6 +80,11 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
         {
             contentControl.Content = hd;
+        }
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+            Home trangchu = new Home();
+            contentControl.Content = trangchu;
         }
     }
 }

@@ -43,6 +43,15 @@
     <Compile Update="View\Form\ThemThuoc.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Form\XuatHoaDon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControl\HomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\userControl\navigationBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -148,6 +157,15 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Style\CustomStyle\TextFont.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\XuatHoaDon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\HomePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControl\navigationBar.xaml">
