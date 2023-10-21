@@ -184,6 +184,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
             txtEmail.Text = nv.Email;
             cbGioiTinh.Text = nv.Gt;
             cbChucVu.Text = nv.TenCv;
+            dtNTNS.Text = nv.NgaySinh.ToString();
 
             bool isAdmin = IsAdmin(cbChucVu.Text);
 

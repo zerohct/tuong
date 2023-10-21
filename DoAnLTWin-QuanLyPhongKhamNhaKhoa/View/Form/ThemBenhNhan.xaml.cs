@@ -35,6 +35,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
             txtSDT.Text = bn.Sdt;
             txtEmail.Text = bn.Email;
             cbGioiTinh.Text = bn.GioiTinh;
+            dtNTNS.Text=bn.NgaySinh.ToString();
         }
         protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
         {

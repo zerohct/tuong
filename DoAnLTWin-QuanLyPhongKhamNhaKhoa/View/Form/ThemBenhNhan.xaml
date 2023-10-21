@@ -30,7 +30,7 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
-                <TextBlock Text="Thêm bênh nhân" FontSize="30" Foreground="#00A3FF" FontWeight="Bold"
+                <TextBlock Text="Thêm bệnh nhân" FontSize="30" Foreground="#00A3FF" FontWeight="Bold"
                            HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="txbTitle">
 
                 </TextBlock>

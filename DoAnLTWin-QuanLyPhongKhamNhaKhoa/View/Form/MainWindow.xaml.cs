@@ -30,10 +30,15 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
                 e.Cancel = true; 
             }
         }
-        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
         {
-            base.OnMouseLeftButtonDown(e);
-            DragMove();
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                if (e.LeftButton == MouseButtonState.Pressed)
+                {
+                    DragMove();
+                }
+            }
         }
 
         private void btn_logout_Click(object sender, RoutedEventArgs e)
@@ -120,16 +125,17 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
             contentControl.Content = dv;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            uc_hoadon hd = new uc_hoadon();
-            contentControl.Content = hd;
-        }
 
         private void btnHome_Click(object sender, RoutedEventArgs e)
         {
             Home trangchu = new Home();
             contentControl.Content = trangchu;
+        }
+
+        private void btnHoaDon_Click(object sender, RoutedEventArgs e)
+        {
+            uc_HTHoaDon uc = new uc_HTHoaDon();
+            contentControl.Content = uc;
         }
     }
 }

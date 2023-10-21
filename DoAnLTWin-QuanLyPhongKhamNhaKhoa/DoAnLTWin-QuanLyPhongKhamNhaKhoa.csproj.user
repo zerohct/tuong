@@ -19,6 +19,9 @@
     <Compile Update="View\Form\EMainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Form\HTHoaDon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Form\login_Form.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -55,6 +58,9 @@
     <Compile Update="View\userControl\uc_dichvu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\userControl\uc_HTHoaDon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\userControl\uc_qlbn.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -88,6 +94,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Form\EMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Form\HTHoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Form\login_Form.xaml">
@@ -166,6 +175,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControl\uc_dichvu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_HTHoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControl\uc_qlbn.xaml">

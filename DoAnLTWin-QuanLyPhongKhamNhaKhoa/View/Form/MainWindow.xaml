@@ -14,7 +14,7 @@
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </Window.Resources>
-    <Border Background="#99ffff"  MouseDown="Border_MouseDown" >
+    <Border Background="#99ffff"   >
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="110*"/>
@@ -207,7 +207,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                                     </Expander.Header>
                                     <Expander.Content>
                                         <StackPanel Orientation="Vertical" >
-                                            <Button Style="{StaticResource MenuButton}" Click="Button_Click">
+                                            <Button Style="{StaticResource MenuButton}" x:Name="btnHoaDon" Click="btnHoaDon_Click">
                                                 <StackPanel Orientation="Horizontal">
                                                     <icon:PackIconMaterial Kind="Receipt" Style="{StaticResource MenuIcon}"/>
                                                     <TextBlock Text="Hóa đơn"/>
