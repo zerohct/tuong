@@ -49,9 +49,6 @@
     <Compile Update="View\userControl\Home.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\userControl\HomePage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\userControl\navigationBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -163,9 +160,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControl\Home.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\userControl\HomePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControl\navigationBar.xaml">

@@ -93,7 +93,7 @@
             </Grid>
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="170"/>
                     <ColumnDefinition Width="170"/>
                     <ColumnDefinition Width="170"/>
@@ -109,10 +109,8 @@
                 <Grid Grid.Column="3">
                     <Button Content="Xóa dữ liệu" Style="{StaticResource AppButton}" x:Name="btnXoa" Click="btnXoa_Click"/>
                 </Grid>
+
                 <Grid Grid.Column="4">
-                    <Button Content="Lưu" Style="{StaticResource AppButton}" x:Name="btnLuu" Click="btnLuu_Click"/>
-                </Grid>
-                <Grid Grid.Column="5">
                     <Button Content="In Thông Tin" Style="{StaticResource AppButton}" x:Name="btnIn" Click="btnIn_Click"/>
                 </Grid>
             </Grid>

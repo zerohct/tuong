@@ -1,10 +1,9 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Linq;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
 {
@@ -106,15 +105,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
             return true;
         }
 
-        private int GetMaDVFromComboBox()
-        {
-            int selectedMaDv = (int)cbTenDv.SelectedValue;
-            if (selectedMaDv != null)
-            {
-                return selectedMaDv;
-            }
-            return -1;
-        }
+
 
         private void ShowErrorMessage(string message)
         {

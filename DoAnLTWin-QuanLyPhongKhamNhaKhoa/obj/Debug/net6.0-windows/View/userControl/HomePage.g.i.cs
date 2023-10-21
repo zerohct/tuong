@@ -53,7 +53,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;component/view/usercontrol/homepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;V1.0.0.0;component/view/usercontrol/homepage.xa" +
+                    "ml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\userControl\HomePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

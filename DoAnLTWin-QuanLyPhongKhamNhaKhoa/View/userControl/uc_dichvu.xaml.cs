@@ -26,8 +26,17 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 
         public void LoadDichVu()
         {
-            var dv = context.Dichvus.ToList();
-            DataGridDV.ItemsSource = dv;
+            var query = from dv in context.Dichvus
+                        select new Dichvu
+                        {
+                            MaDv = dv.MaDv,
+                            TenDv = dv.TenDv,
+                            Dvt = dv.Dvt,
+                            Khuyenmai = dv.Khuyenmai,
+                            Giadv = dv.Giadv,
+                            Tgbh = dv.Tgbh,
+                        };
+            DataGridDV.ItemsSource = query.ToList();
         }
         private void btnThem_Click(object sender, RoutedEventArgs e)
         {

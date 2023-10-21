@@ -27,8 +27,16 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         }
         public void LoadNhaCungCap()
         {
-            var ncc = context.Nhacungcaps.ToList();
-            dataaGridNCC.ItemsSource = ncc;
+            var query = from ncc in context.Nhacungcaps
+                        select new Nhacungcap
+                        {
+                            MaNcc = ncc.MaNcc,
+                            TenNcc = ncc.TenNcc,
+                            DiaChi = ncc.DiaChi,
+                            Email = ncc.Email,
+                            Sdt = ncc.Sdt,
+                        };
+            dataaGridNCC.ItemsSource = query.ToList();
 
         }
         private void btnThem_Click(object sender, RoutedEventArgs e)

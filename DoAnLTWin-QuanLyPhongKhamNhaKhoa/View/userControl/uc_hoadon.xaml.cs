@@ -4,8 +4,6 @@ using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Drawing;
-using System.Drawing.Printing;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -81,48 +79,6 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             }
         }
 
-        private void btnLuu_Click(object sender, RoutedEventArgs e)
-        {
-            DateTime? selectedNgayLap = dtNTNS.SelectedDate;
-            using (var dbContext = new DaphongkhamnhakhoaContext())
-            {
-                if (chiTietHoaDonList.Any())
-                {
-                    Phieudieutri pdt = new Phieudieutri();
-                    pdt.Ngaylap = selectedNgayLap;
-                    pdt.Tongtien = Convert.ToDecimal(txtTongTien.Text);
-                    string tenBenhNhan = txtBenhNhan.Text;
-                    var benhNhan = dbContext.Benhnhans.FirstOrDefault(bn => bn.TenBn == tenBenhNhan);
-                    if (benhNhan != null)
-                    {
-                        pdt.MaBn = benhNhan.MaBn;
-                    }
-                    string tenNhanVien = txbNameNv.Text;
-                    var nhanVien = dbContext.Nhanviens.FirstOrDefault(nv => nv.TenNv == tenNhanVien);
-                    if (nhanVien != null)
-                    {
-                        pdt.MaNv = nhanVien.MaNv;
-                    }
-                    pdt.Nddt = txtnddt.Text;
-                    pdt.TrangThai = cbTrangThai.Text;
-                    dbContext.Phieudieutris.Add(pdt);
-                    dbContext.SaveChanges();
-                    foreach (var cthd in chiTietHoaDonList)
-                    {
-                        Ctpkdt ctpkdt = new Ctpkdt();
-
-                        ctpkdt.MaPdt = pdt.MaPdt;
-                        ctpkdt.MaDv = cthd.MaDv;
-                        ctpkdt.Sl = cthd.Sl;
-                        ctpkdt.Dongia = cthd.Giadv;
-                        dbContext.Ctpkdts.Add(ctpkdt);
-                    }
-
-                    dbContext.SaveChanges();
-                    
-                }
-            }
-        }
 
         private void btnSua_Click(object sender, RoutedEventArgs e)
         {
@@ -205,108 +161,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             printDocument.Dispose();*/
 
         }
-        /*private void PrintPage(object sender, PrintPageEventArgs e)
-        {
-            Graphics graphics = e.Graphics;
-            Font titleFont = new Font("Arial", 16, System.Drawing.FontStyle.Bold);
-            Font tableHeaderFont = new Font("Arial", 14, System.Drawing.FontStyle.Bold);
-            Font itemFont = new Font("Arial", 12);
-            Brush brush = Brushes.Black;
 
-            float z = (e.PageBounds.Width - (int)graphics.MeasureString("HÓA ĐƠN", titleFont).Width) / 2;
-            float x = 100;
-            float y = 100;
-            decimal totalCost = 0;
-
-            string title = "HÓA ĐƠN";
-            float titleX = (e.PageBounds.Width - graphics.MeasureString(title, titleFont).Width) / 2;
-            float titleY = 100;
-            graphics.DrawString(title, titleFont, brush, titleX, titleY);
-            System.Drawing.Image image = System.Drawing.Image.FromFile("D:/ca-master/DoAnLTWin-QuanLyPhongKhamNhaKhoa/image/Logo/logo.png");
- 
-            float imageWidth = image.Width * 10 / image.HorizontalResolution;
-            float imageHeight = image.Height * 10 / image.VerticalResolution;
-            float widthFactor = imageWidth / e.MarginBounds.Width;
-            float heightFactor = imageHeight / e.MarginBounds.Height;
-            if (widthFactor > 1 || heightFactor > 1)
-            {
-                if (widthFactor > heightFactor)
-                {
-                    imageWidth = imageWidth / widthFactor;
-                    imageHeight = imageHeight / widthFactor;
-                }
-                else
-                {
-                    imageWidth = imageWidth / heightFactor;
-                    imageHeight = imageHeight / heightFactor;
-                }
-            }
-            float ix = e.MarginBounds.X + (e.MarginBounds.Width - imageWidth) / 2;
-            float iy = e.MarginBounds.Y + (e.MarginBounds.Height - imageHeight) / 2;
-            e.Graphics.DrawImage(image, ix, iy, imageWidth, imageHeight);
-
-            float patientX = 150;
-            float employeeX = e.PageBounds.Width - 450; 
-            float namesY = titleY + 100; 
-            string patientName = "Tên bệnh nhân: " + txtBenhNhan.Text;
-            string employeeName = "Tên nhân viên: " + txbNameNv.Text;
-            graphics.DrawString(patientName, itemFont, brush, patientX, namesY);
-            graphics.DrawString(employeeName, itemFont, brush, employeeX, namesY);
-            namesY += 50;
-            DateTime? selectedNgayLap = dtNTNS.SelectedDate;
-            if (selectedNgayLap != null)
-            {
-                string ngayLapString = "Ngày lập: " + selectedNgayLap.Value.ToShortDateString();
-                graphics.DrawString(ngayLapString, itemFont,brush, patientX, namesY);
-            }
-            string trangThaiString = "Trạng thái: " + cbTrangThai.Text;
-            graphics.DrawString(trangThaiString, itemFont, brush, employeeX, namesY);
-            namesY += 50;
-            string nddt = "Nội Dung điều trị : " + txtnddt.Text;
-            graphics.DrawString(nddt, itemFont, brush, patientX, namesY);
-
-            float col1X = 150;
-            float col2X = 200;
-            float col3X = 350;
-            float col4X = 500;
-            float tableY = namesY + 50;
-
-            Pen pen = new Pen(Brushes.Black, 2);
-            tableY += 25;
-            graphics.DrawLine(pen, col1X, tableY, col4X + 100, tableY);
-
-            graphics.DrawString("STT", tableHeaderFont, brush, col1X, tableY);
-            graphics.DrawString("Dịch Vụ", tableHeaderFont, brush, col2X, tableY);
-            graphics.DrawString("Số Lượng", tableHeaderFont, brush, col3X, tableY);
-            graphics.DrawString("Thành Tiền", tableHeaderFont, brush, col4X, tableY);
-
-            
-            Pen pen1 = new Pen(Brushes.Black, 2);
-            tableY += 25;
-            graphics.DrawLine(pen1, col1X, tableY, col4X+100, tableY) ;
-            int stt = 1;
-            tableY += 40;
-            foreach (var item in chiTietHoaDonList)
-            {
-                graphics.DrawString(stt.ToString(), itemFont, brush, col1X, tableY);
-                graphics.DrawString(item.TenDv, itemFont, brush, col2X, tableY);
-                graphics.DrawString(item.Sl.ToString(), itemFont, brush, col3X, tableY);
-                graphics.DrawString(item.TongTien.ToString(), itemFont, brush, col4X, tableY);
-                totalCost += item.TongTien;
-                tableY += 40;
-                stt++;
-            }
-            Pen pen2 = new Pen(Brushes.Black, 2);
-            tableY += 20;
-            graphics.DrawLine(pen2, col1X, tableY, col4X + 100, tableY);
-
-            string totalCostString = "Tổng tiền hóa đơn: " + totalCost.ToString();
-            graphics.DrawString(totalCostString, itemFont, brush, col3X, tableY + 40);
-
-
-           
-        }
-*/
         private void txtBenhNhan_TextChanged(object sender, TextChangedEventArgs e)
         {
             string searchText = txtBenhNhan.Text.ToLower();

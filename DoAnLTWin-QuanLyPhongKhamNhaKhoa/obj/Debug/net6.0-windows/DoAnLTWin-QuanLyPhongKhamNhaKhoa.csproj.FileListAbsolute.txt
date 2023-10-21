@@ -652,6 +652,7 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\XuatHoaDon.g.cs
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\Home.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.g.cs
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.g.cs
@@ -681,6 +682,7 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThietBi.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\ThemThuoc.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\Form\XuatHoaDon.baml
+D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\Home.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\inputBox.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\navigationBar.baml
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\uc_dichvu.baml
@@ -702,7 +704,3 @@ D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\refint\Do
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.pdb
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\DoAnLTWin-QuanLyPhongKhamNhaKhoa.genruntimeconfig.cache
 D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\ref\DoAnLTWin-QuanLyPhongKhamNhaKhoa.dll
-D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\Home.g.cs
-D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\HomePage.g.cs
-D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\Home.baml
-D:\ca-master\DoAnLTWin-QuanLyPhongKhamNhaKhoa\obj\Debug\net6.0-windows\View\userControl\HomePage.baml

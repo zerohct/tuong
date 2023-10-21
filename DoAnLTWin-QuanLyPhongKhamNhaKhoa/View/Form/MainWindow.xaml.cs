@@ -36,7 +36,6 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
             DragMove();
         }
 
-
         private void btn_logout_Click(object sender, RoutedEventArgs e)
         {
             login_Form loginWindow = new login_Form();
