@@ -249,7 +249,7 @@ DockPanel.Dock="Top"  TextAlignment="Center" Margin="25,25,0,10"/>
                             </StackPanel>
                             <!--8-->
                             <StackPanel DockPanel.Dock="Top">
-                                <Button Style="{StaticResource MenuButton}"  Margin="25,0,65,0">
+                                <Button Style="{StaticResource MenuButton}"  Margin="25,0,65,0" x:Name="btnHelp" Click="btnHelp_Click">
                                     <StackPanel Orientation="Horizontal">
                                         <icon:PackIconMaterial Kind="Help" Style="{StaticResource MenuIcon}"/>
                                         <TextBlock Text="Help"/>

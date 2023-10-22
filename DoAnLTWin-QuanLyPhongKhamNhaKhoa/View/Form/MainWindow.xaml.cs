@@ -7,6 +7,7 @@ using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
 using System.Linq;
+using System;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
 {
@@ -137,5 +138,25 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
             uc_HTHoaDon uc = new uc_HTHoaDon();
             contentControl.Content = uc;
         }
+
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            string pdfPath = "D:/ca-master/DoAnLTWin-QuanLyPhongKhamNhaKhoa/HDSH.pdf";
+
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = pdfPath,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi nếu cần
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
     }
+    
 }
