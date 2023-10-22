@@ -1,13 +1,8 @@
-﻿using System.Windows;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Collections.ObjectModel;
-using System.Windows.Controls;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
+﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
-using System.Linq;
 using System;
+using System.Windows;
+using System.Windows.Input;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
 {
@@ -153,7 +148,6 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa
             }
             catch (Exception ex)
             {
-                // Xử lý lỗi nếu cần
                 MessageBox.Show("Lỗi: " + ex.Message);
             }
         }

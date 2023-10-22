@@ -117,7 +117,7 @@
                         <Style TargetType="Button">
                             <Setter Property="Visibility" Value="Hidden"></Setter>
                             <Style.Triggers>
-                                <DataTrigger Binding="{Binding Path=Text, ElementName=txbTitle }" Value="Thêm bênh nhân">
+                                <DataTrigger Binding="{Binding Path=Text, ElementName=txbTitle }" Value="Thêm bệnh nhân">
                                     <Setter Property="Visibility" Value="Visible"></Setter>
                                 </DataTrigger>
                             </Style.Triggers>

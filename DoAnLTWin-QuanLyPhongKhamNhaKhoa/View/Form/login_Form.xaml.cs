@@ -15,22 +15,23 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
     public partial class login_Form : Window
     {
         public bool isLoaded = false;
+        private getEmployeeName sharedData = new getEmployeeName();
         public login_Form()
         {
-            InitializeComponent(); 
+            InitializeComponent();
 
 
         }
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            string username = txt_userName.Text; 
+            string username = txt_userName.Text;
             string password = txt_password.Password;
             EmployeeService employeeService = new EmployeeService();
             Nhanvien employee = employeeService.GetEmployeeByLogin(username, password);
 
 
             if (!string.IsNullOrWhiteSpace(username) && !string.IsNullOrWhiteSpace(password))
-            {                
+            {
                 using (var context = new DaphongkhamnhakhoaContext())
                 {
                     var user = context.Taikhoans.FirstOrDefault(u => u.TenDangNhap == username && u.MatKhau == password);
@@ -54,7 +55,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
                         MessageBox.Show("Đăng nhập thành công!");
                         EMainWindow mainWindow = new EMainWindow();
                         mainWindow.MaNvFromForm1 = user.MaNv;
-                        mainWindow.SetEmployeeName(employee.TenNv);
+                        sharedData.EmployeeName = employee.TenNv;
+                        mainWindow.SetSharedData(sharedData);
                         mainWindow.hienThiTen();
                         mainWindow.Show();
                         this.Close();
@@ -67,13 +69,13 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
             }
         }
 
-        public bool IsDarkTheme{get; set;}
+        public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();
 
         private void themeToggle_Click(object sender, RoutedEventArgs e)
         {
             ITheme theme = paletteHelper.GetTheme();
-            if(IsDarkTheme = theme.GetBaseTheme()== BaseTheme.Dark)
+            if (IsDarkTheme = theme.GetBaseTheme() == BaseTheme.Dark)
             {
                 IsDarkTheme = false;
                 theme.SetBaseTheme(Theme.Light);
@@ -97,7 +99,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         }
         private void CheckBox_Changed(object sender, RoutedEventArgs e)
         {
-            
+
             if (checkBox.IsChecked == true)
             {
                 txtb_password.Text = txt_password.Password;

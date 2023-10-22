@@ -1,17 +1,13 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model.export;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using static iTextSharp.text.pdf.AcroFields;
-using System.Globalization;
 using System.Windows.Input;
-using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form;
 
 namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
 {

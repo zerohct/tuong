@@ -1,5 +1,7 @@
 ﻿using DoAnLTWin_QuanLyPhongKhamNhaKhoa.Model;
+using DoAnLTWin_QuanLyPhongKhamNhaKhoa.ModelView;
 using DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl;
+using System;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,18 +14,24 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
     /// </summary>
     public partial class EMainWindow : Window
     {
-        private uc_hoadon hd;
+        private uc_hoadon hd = new uc_hoadon();
+        private uc_BenhNhan bn = new uc_BenhNhan();
+        private getEmployeeName sharedData;
         public EMainWindow()
         {
             InitializeComponent();
-            hd=new uc_hoadon();
             Home trangchu = new Home();
             contentControl.Content = trangchu;
         }
-        public void SetEmployeeName(string name)
+        public void SetSharedData(getEmployeeName data)
         {
-            hd.SetEmployeeName(name);
+            sharedData = data;
         }
+        /* public void SetEmployeeName(string name)
+         {
+             bn.SetEmployeeName(name);
+            *//* hd.SetEmployeeName(name);*//*
+         }*/
         public int? MaNvFromForm1 { get; set; }
         public void hienThiTen()
         {
@@ -52,7 +60,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
             login_Form loginWindow = new login_Form();
             loginWindow.Show();
             this.Close();
-                
+
 
         }
 
@@ -79,12 +87,42 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
         }
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
         {
+            hd.SetSharedData(sharedData);
             contentControl.Content = hd;
         }
         private void btnHome_Click(object sender, RoutedEventArgs e)
         {
             Home trangchu = new Home();
             contentControl.Content = trangchu;
+        }
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            string pdfPath = "D:/ca-master/DoAnLTWin-QuanLyPhongKhamNhaKhoa/HDSH.pdf";
+
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = pdfPath,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private void btnBN_Click(object sender, RoutedEventArgs e)
+        {
+            bn.SetSharedData(sharedData);
+            contentControl.Content = bn;
+        }
+
+        private void btnhd_Click(object sender, RoutedEventArgs e)
+        {
+            uc_HTHoaDon uc = new uc_HTHoaDon();
+            contentControl.Content = uc;
         }
     }
 }

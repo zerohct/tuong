@@ -13,7 +13,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form
     /// </summary>
     public partial class ThemBenhNhan : Window
     {
-        private     DaphongkhamnhakhoaContext context = new DaphongkhamnhakhoaContext();
+        private DaphongkhamnhakhoaContext context = new DaphongkhamnhakhoaContext();
         private Benhnhan newBenhnhan = new Benhnhan();
         public ThemBenhNhan()
         {

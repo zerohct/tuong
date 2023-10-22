@@ -98,7 +98,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;component/view/form/create_account.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;V1.0.0.0;component/view/form/create_account.xam" +
+                    "l", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Form\Create_Account.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

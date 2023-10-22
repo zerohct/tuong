@@ -55,6 +55,9 @@
     <Compile Update="View\userControl\navigationBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\userControl\uc_BenhNhan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\userControl\uc_dichvu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -172,6 +175,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControl\navigationBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControl\uc_BenhNhan.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControl\uc_dichvu.xaml">

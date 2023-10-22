@@ -22,28 +22,32 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
         private DaphongkhamnhakhoaContext context;
         private int currentMaPdt;
         private ObservableCollection<PhieuKhamDieuTriView> chiTietHoaDonList = new ObservableCollection<PhieuKhamDieuTriView>();
-        private ObservableCollection<string> name; 
+        private ObservableCollection<string> name;
         private string selectedName;
-
+        private getEmployeeName sharedData;
         public uc_hoadon()
         {
             InitializeComponent();
             context = new DaphongkhamnhakhoaContext();
             loadten();
-            
-        }
-        public void SetEmployeeName(string name)
-        {
-            txbNameNv.Text = name;
-        }
 
+        }
+        public void SetSharedData(getEmployeeName data)
+        {
+            sharedData = data;
+            txbNameNv.Text = sharedData.EmployeeName;
+        }
+        public void SetPatientName(string Name)
+        {
+            txtBenhNhan.Text = Name;
+        }
 
         private void loadten()
         {
             name = new ObservableCollection<string>(context.Benhnhans.Select(nv => nv.TenBn));
             txtBenhNhan.TextChanged += txtBenhNhan_TextChanged;
         }
-    
+
         private void UpdateTotalAmount()
         {
             decimal tongTien = chiTietHoaDonList.Sum(item => item.TongTien);
@@ -140,12 +144,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
                     }
 
                     dbContext.SaveChanges();
-                    XuatHoaDon hoaDon = new XuatHoaDon(tenBenhNhan,tenNhanVien, pdt.Tongtien,pdt.TrangThai,pdt.Nddt,pdt.Ngaylap,chiTietHoaDonList);
+                    XuatHoaDon hoaDon = new XuatHoaDon(tenBenhNhan, tenNhanVien, pdt.Tongtien, pdt.TrangThai, pdt.Nddt, pdt.Ngaylap, chiTietHoaDonList);
                     hoaDon.ShowDialog();
 
                 }
             }
-           
+
             /*PrintDocument printDocument = new PrintDocument();
             printDocument.PrintPage += new PrintPageEventHandler(PrintPage);
             
