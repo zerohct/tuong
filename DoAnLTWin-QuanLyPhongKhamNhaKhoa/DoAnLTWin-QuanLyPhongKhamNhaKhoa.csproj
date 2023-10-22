@@ -11,6 +11,8 @@
   <ItemGroup>
     <None Remove="11zon_cropped.png" />
     <None Remove="Style\CustomStyle\search.png" />
+    <None Remove="View\Form\1.jpg" />
+    <None Remove="View\Form\2.jpg" />
     <None Remove="View\Form\eye.png" />
     <None Remove="View\Form\logo.png" />
     <None Remove="View\Form\me.jpg" />
@@ -61,6 +63,8 @@
 
   <ItemGroup>
     <Resource Include="Style\CustomStyle\search.png" />
+    <Resource Include="View\Form\1.jpg" />
+    <Resource Include="View\Form\2.jpg" />
     <Resource Include="View\Form\eye.png" />
     <Resource Include="View\Form\logo.png" />
     <Resource Include="View\Form\me.jpg" />

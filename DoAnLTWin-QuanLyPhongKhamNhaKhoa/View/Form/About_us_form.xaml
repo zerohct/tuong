@@ -97,7 +97,7 @@
                             Margin="20,0,0,0" Opacity="0.8">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="/View/Form/me.jpg"/>
+                                    <ImageBrush ImageSource="/View/Form/2.jpg"/>
                                 </Ellipse.Fill>
                             </Ellipse>
 
@@ -129,7 +129,7 @@
                             Margin="20,0,0,0" Opacity="0.8">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="/View/Form/me.jpg"/>
+                                    <ImageBrush ImageSource="/View/Form/1.jpg"/>
                                 </Ellipse.Fill>
                             </Ellipse>
 
@@ -161,7 +161,7 @@
                             Margin="20,0,0,0" Opacity="0.8">
                             <Ellipse>
                                 <Ellipse.Fill>
-                                    <ImageBrush ImageSource="/View/Form/me.jpg"/>
+                                    <ImageBrush ImageSource="D:/ca-master/DoAnLTWin-QuanLyPhongKhamNhaKhoa/View/Form/5.jpg"/>
                                 </Ellipse.Fill>
                             </Ellipse>
 

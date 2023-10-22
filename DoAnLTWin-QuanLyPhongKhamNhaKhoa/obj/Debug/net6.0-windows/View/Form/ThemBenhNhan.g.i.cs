@@ -112,7 +112,7 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.Form {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;V1.0.0.0;component/view/form/thembenhnhan.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DoAnLTWin-QuanLyPhongKhamNhaKhoa;component/view/form/thembenhnhan.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Form\ThemBenhNhan.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
