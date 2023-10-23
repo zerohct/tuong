@@ -14,7 +14,7 @@
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </Window.Resources>
-    <Border Background="#99ffff"  MouseDown="Border_MouseDown" >
+    <Border Background="#99ffff"  >
         <Grid>
 
             <Grid.ColumnDefinitions>

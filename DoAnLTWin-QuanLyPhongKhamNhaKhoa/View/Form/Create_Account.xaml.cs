@@ -96,6 +96,8 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
                     context.SaveChanges();
                     MessageBox.Show("Tài khoản đã được thêm thành công.");
                 }
+                txtPass.Clear();
+                txtUser.Clear();
             }
         }
     }

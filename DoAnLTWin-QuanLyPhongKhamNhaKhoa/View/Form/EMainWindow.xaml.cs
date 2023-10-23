@@ -50,10 +50,16 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.Form
                 }
             }
         }
-        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
         {
-            base.OnMouseLeftButtonDown(e);
-            DragMove();
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                if (e.LeftButton == MouseButtonState.Pressed)
+                {
+                    DragMove();
+                }
+            }
         }
         private void btn_logout_Click(object sender, RoutedEventArgs e)
         {

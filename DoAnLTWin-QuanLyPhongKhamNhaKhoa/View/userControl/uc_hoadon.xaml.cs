@@ -146,10 +146,12 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
                     dbContext.SaveChanges();
                     XuatHoaDon hoaDon = new XuatHoaDon(tenBenhNhan, tenNhanVien, pdt.Tongtien, pdt.TrangThai, pdt.Nddt, pdt.Ngaylap, chiTietHoaDonList);
                     hoaDon.ShowDialog();
+                    clear();
+
 
                 }
             }
-
+            
             /*PrintDocument printDocument = new PrintDocument();
             printDocument.PrintPage += new PrintPageEventHandler(PrintPage);
             
@@ -165,7 +167,16 @@ namespace DoAnLTWin_QuanLyPhongKhamNhaKhoa.View.userControl
             printDocument.Dispose();*/
 
         }
-
+        private void clear() 
+        {
+            txtBenhNhan.Clear();
+            txtnddt.Clear();
+            txtTongTien.Clear();
+            DataGridHoaDon.ItemsSource = null;
+            chiTietHoaDonList.Clear();
+            cbTrangThai.Text = string.Empty;
+        }
+            
         private void txtBenhNhan_TextChanged(object sender, TextChangedEventArgs e)
         {
             string searchText = txtBenhNhan.Text.ToLower();

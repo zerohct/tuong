@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:DoAnLTWin_QuanLyPhongKhamNhaKhoa"
              xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
-             StartupUri="View/Form/About_us_Form.xaml"
+             StartupUri="View/Form/login_Form.xaml"
              xmlns:wpf="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf">
     <Application.Resources>
 
